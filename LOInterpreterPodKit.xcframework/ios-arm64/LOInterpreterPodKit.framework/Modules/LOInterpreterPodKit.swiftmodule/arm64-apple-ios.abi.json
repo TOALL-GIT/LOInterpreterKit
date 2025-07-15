@@ -6,437 +6,12 @@
     "children": [
       {
         "kind": "Import",
-        "name": "Moya",
-        "printedName": "Moya",
-        "declKind": "Import",
-        "moduleName": "LOInterpreterPodKit",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
         "name": "AgoraRtcKit",
         "printedName": "AgoraRtcKit",
         "declKind": "Import",
         "moduleName": "LOInterpreterPodKit",
         "declAttributes": [
           "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "LOInterpreterPodKit",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "LORecordingState",
-        "printedName": "LORecordingState",
-        "children": [
-          {
-            "kind": "Var",
-            "name": "initial",
-            "printedName": "initial",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(LOInterpreterPodKit.LORecordingState.Type) -> LOInterpreterPodKit.LORecordingState",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "LORecordingState",
-                    "printedName": "LOInterpreterPodKit.LORecordingState",
-                    "usr": "s:19LOInterpreterPodKit16LORecordingStateO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "LOInterpreterPodKit.LORecordingState.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "LORecordingState",
-                        "printedName": "LOInterpreterPodKit.LORecordingState",
-                        "usr": "s:19LOInterpreterPodKit16LORecordingStateO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:19LOInterpreterPodKit16LORecordingStateO7initialyA2CmF",
-            "mangledName": "$s19LOInterpreterPodKit16LORecordingStateO7initialyA2CmF",
-            "moduleName": "LOInterpreterPodKit"
-          },
-          {
-            "kind": "Var",
-            "name": "joiningChannel",
-            "printedName": "joiningChannel",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(LOInterpreterPodKit.LORecordingState.Type) -> LOInterpreterPodKit.LORecordingState",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "LORecordingState",
-                    "printedName": "LOInterpreterPodKit.LORecordingState",
-                    "usr": "s:19LOInterpreterPodKit16LORecordingStateO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "LOInterpreterPodKit.LORecordingState.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "LORecordingState",
-                        "printedName": "LOInterpreterPodKit.LORecordingState",
-                        "usr": "s:19LOInterpreterPodKit16LORecordingStateO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:19LOInterpreterPodKit16LORecordingStateO14joiningChannelyA2CmF",
-            "mangledName": "$s19LOInterpreterPodKit16LORecordingStateO14joiningChannelyA2CmF",
-            "moduleName": "LOInterpreterPodKit",
-            "declAttributes": [
-              "RawDocComment"
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "joined",
-            "printedName": "joined",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(LOInterpreterPodKit.LORecordingState.Type) -> LOInterpreterPodKit.LORecordingState",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "LORecordingState",
-                    "printedName": "LOInterpreterPodKit.LORecordingState",
-                    "usr": "s:19LOInterpreterPodKit16LORecordingStateO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "LOInterpreterPodKit.LORecordingState.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "LORecordingState",
-                        "printedName": "LOInterpreterPodKit.LORecordingState",
-                        "usr": "s:19LOInterpreterPodKit16LORecordingStateO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:19LOInterpreterPodKit16LORecordingStateO6joinedyA2CmF",
-            "mangledName": "$s19LOInterpreterPodKit16LORecordingStateO6joinedyA2CmF",
-            "moduleName": "LOInterpreterPodKit",
-            "declAttributes": [
-              "RawDocComment"
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "streaming",
-            "printedName": "streaming",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(LOInterpreterPodKit.LORecordingState.Type) -> LOInterpreterPodKit.LORecordingState",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "LORecordingState",
-                    "printedName": "LOInterpreterPodKit.LORecordingState",
-                    "usr": "s:19LOInterpreterPodKit16LORecordingStateO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "LOInterpreterPodKit.LORecordingState.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "LORecordingState",
-                        "printedName": "LOInterpreterPodKit.LORecordingState",
-                        "usr": "s:19LOInterpreterPodKit16LORecordingStateO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:19LOInterpreterPodKit16LORecordingStateO9streamingyA2CmF",
-            "mangledName": "$s19LOInterpreterPodKit16LORecordingStateO9streamingyA2CmF",
-            "moduleName": "LOInterpreterPodKit",
-            "declAttributes": [
-              "RawDocComment"
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "streamMessageReceived",
-            "printedName": "streamMessageReceived",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(LOInterpreterPodKit.LORecordingState.Type) -> (LOInterpreterPodKit.LOInterpreterReciveMessage) -> LOInterpreterPodKit.LORecordingState",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "(LOInterpreterPodKit.LOInterpreterReciveMessage) -> LOInterpreterPodKit.LORecordingState",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "LORecordingState",
-                        "printedName": "LOInterpreterPodKit.LORecordingState",
-                        "usr": "s:19LOInterpreterPodKit16LORecordingStateO"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "LOInterpreterReciveMessage",
-                        "printedName": "LOInterpreterPodKit.LOInterpreterReciveMessage",
-                        "usr": "s:19LOInterpreterPodKit0A13ReciveMessageV"
-                      }
-                    ]
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "LOInterpreterPodKit.LORecordingState.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "LORecordingState",
-                        "printedName": "LOInterpreterPodKit.LORecordingState",
-                        "usr": "s:19LOInterpreterPodKit16LORecordingStateO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:19LOInterpreterPodKit16LORecordingStateO21streamMessageReceivedyAcA0a6ReciveG0VcACmF",
-            "mangledName": "$s19LOInterpreterPodKit16LORecordingStateO21streamMessageReceivedyAcA0a6ReciveG0VcACmF",
-            "moduleName": "LOInterpreterPodKit",
-            "declAttributes": [
-              "RawDocComment"
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "failure",
-            "printedName": "failure",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(LOInterpreterPodKit.LORecordingState.Type) -> (LOInterpreterPodKit.LOInterpreterError) -> LOInterpreterPodKit.LORecordingState",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "(LOInterpreterPodKit.LOInterpreterError) -> LOInterpreterPodKit.LORecordingState",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "LORecordingState",
-                        "printedName": "LOInterpreterPodKit.LORecordingState",
-                        "usr": "s:19LOInterpreterPodKit16LORecordingStateO"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "LOInterpreterError",
-                        "printedName": "LOInterpreterPodKit.LOInterpreterError",
-                        "usr": "s:19LOInterpreterPodKit0A5ErrorO"
-                      }
-                    ]
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "LOInterpreterPodKit.LORecordingState.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "LORecordingState",
-                        "printedName": "LOInterpreterPodKit.LORecordingState",
-                        "usr": "s:19LOInterpreterPodKit16LORecordingStateO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:19LOInterpreterPodKit16LORecordingStateO7failureyAcA0A5ErrorOcACmF",
-            "mangledName": "$s19LOInterpreterPodKit16LORecordingStateO7failureyAcA0A5ErrorOcACmF",
-            "moduleName": "LOInterpreterPodKit",
-            "declAttributes": [
-              "RawDocComment"
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "didLeaveChannel",
-            "printedName": "didLeaveChannel",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(LOInterpreterPodKit.LORecordingState.Type) -> LOInterpreterPodKit.LORecordingState",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "LORecordingState",
-                    "printedName": "LOInterpreterPodKit.LORecordingState",
-                    "usr": "s:19LOInterpreterPodKit16LORecordingStateO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "LOInterpreterPodKit.LORecordingState.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "LORecordingState",
-                        "printedName": "LOInterpreterPodKit.LORecordingState",
-                        "usr": "s:19LOInterpreterPodKit16LORecordingStateO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:19LOInterpreterPodKit16LORecordingStateO15didLeaveChannelyA2CmF",
-            "mangledName": "$s19LOInterpreterPodKit16LORecordingStateO15didLeaveChannelyA2CmF",
-            "moduleName": "LOInterpreterPodKit",
-            "declAttributes": [
-              "RawDocComment"
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "stoppedByBLE",
-            "printedName": "stoppedByBLE",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(LOInterpreterPodKit.LORecordingState.Type) -> (Swift.Int, Foundation.Data, Swift.UInt8) -> LOInterpreterPodKit.LORecordingState",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "(Swift.Int, Foundation.Data, Swift.UInt8) -> LOInterpreterPodKit.LORecordingState",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "LORecordingState",
-                        "printedName": "LOInterpreterPodKit.LORecordingState",
-                        "usr": "s:19LOInterpreterPodKit16LORecordingStateO"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Tuple",
-                        "printedName": "(type: Swift.Int, sessionId: Foundation.Data, status: Swift.UInt8)",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Int",
-                            "printedName": "Swift.Int",
-                            "usr": "s:Si"
-                          },
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Data",
-                            "printedName": "Foundation.Data",
-                            "usr": "s:10Foundation4DataV"
-                          },
-                          {
-                            "kind": "TypeNominal",
-                            "name": "UInt8",
-                            "printedName": "Swift.UInt8",
-                            "usr": "s:s5UInt8V"
-                          }
-                        ]
-                      }
-                    ]
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "LOInterpreterPodKit.LORecordingState.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "LORecordingState",
-                        "printedName": "LOInterpreterPodKit.LORecordingState",
-                        "usr": "s:19LOInterpreterPodKit16LORecordingStateO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:19LOInterpreterPodKit16LORecordingStateO12stoppedByBLEyACSi_10Foundation4DataVs5UInt8VtcACmF",
-            "mangledName": "$s19LOInterpreterPodKit16LORecordingStateO12stoppedByBLEyACSi_10Foundation4DataVs5UInt8VtcACmF",
-            "moduleName": "LOInterpreterPodKit",
-            "declAttributes": [
-              "RawDocComment"
-            ]
-          }
-        ],
-        "declKind": "Enum",
-        "usr": "s:19LOInterpreterPodKit16LORecordingStateO",
-        "mangledName": "$s19LOInterpreterPodKit16LORecordingStateO",
-        "moduleName": "LOInterpreterPodKit",
-        "declAttributes": [
-          "AccessControl"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          }
         ]
       },
       {
@@ -1912,6 +1487,731 @@
         ]
       },
       {
+        "kind": "TypeDecl",
+        "name": "LORecordingState",
+        "printedName": "LORecordingState",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "initial",
+            "printedName": "initial",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(LOInterpreterPodKit.LORecordingState.Type) -> LOInterpreterPodKit.LORecordingState",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LORecordingState",
+                    "printedName": "LOInterpreterPodKit.LORecordingState",
+                    "usr": "s:19LOInterpreterPodKit16LORecordingStateO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "LOInterpreterPodKit.LORecordingState.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LORecordingState",
+                        "printedName": "LOInterpreterPodKit.LORecordingState",
+                        "usr": "s:19LOInterpreterPodKit16LORecordingStateO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:19LOInterpreterPodKit16LORecordingStateO7initialyA2CmF",
+            "mangledName": "$s19LOInterpreterPodKit16LORecordingStateO7initialyA2CmF",
+            "moduleName": "LOInterpreterPodKit"
+          },
+          {
+            "kind": "Var",
+            "name": "joiningChannel",
+            "printedName": "joiningChannel",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(LOInterpreterPodKit.LORecordingState.Type) -> LOInterpreterPodKit.LORecordingState",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LORecordingState",
+                    "printedName": "LOInterpreterPodKit.LORecordingState",
+                    "usr": "s:19LOInterpreterPodKit16LORecordingStateO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "LOInterpreterPodKit.LORecordingState.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LORecordingState",
+                        "printedName": "LOInterpreterPodKit.LORecordingState",
+                        "usr": "s:19LOInterpreterPodKit16LORecordingStateO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:19LOInterpreterPodKit16LORecordingStateO14joiningChannelyA2CmF",
+            "mangledName": "$s19LOInterpreterPodKit16LORecordingStateO14joiningChannelyA2CmF",
+            "moduleName": "LOInterpreterPodKit",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "joined",
+            "printedName": "joined",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(LOInterpreterPodKit.LORecordingState.Type) -> LOInterpreterPodKit.LORecordingState",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LORecordingState",
+                    "printedName": "LOInterpreterPodKit.LORecordingState",
+                    "usr": "s:19LOInterpreterPodKit16LORecordingStateO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "LOInterpreterPodKit.LORecordingState.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LORecordingState",
+                        "printedName": "LOInterpreterPodKit.LORecordingState",
+                        "usr": "s:19LOInterpreterPodKit16LORecordingStateO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:19LOInterpreterPodKit16LORecordingStateO6joinedyA2CmF",
+            "mangledName": "$s19LOInterpreterPodKit16LORecordingStateO6joinedyA2CmF",
+            "moduleName": "LOInterpreterPodKit",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "streaming",
+            "printedName": "streaming",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(LOInterpreterPodKit.LORecordingState.Type) -> LOInterpreterPodKit.LORecordingState",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LORecordingState",
+                    "printedName": "LOInterpreterPodKit.LORecordingState",
+                    "usr": "s:19LOInterpreterPodKit16LORecordingStateO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "LOInterpreterPodKit.LORecordingState.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LORecordingState",
+                        "printedName": "LOInterpreterPodKit.LORecordingState",
+                        "usr": "s:19LOInterpreterPodKit16LORecordingStateO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:19LOInterpreterPodKit16LORecordingStateO9streamingyA2CmF",
+            "mangledName": "$s19LOInterpreterPodKit16LORecordingStateO9streamingyA2CmF",
+            "moduleName": "LOInterpreterPodKit",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "streamMessageReceived",
+            "printedName": "streamMessageReceived",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(LOInterpreterPodKit.LORecordingState.Type) -> (LOInterpreterPodKit.LOInterpreterReciveMessage) -> LOInterpreterPodKit.LORecordingState",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(LOInterpreterPodKit.LOInterpreterReciveMessage) -> LOInterpreterPodKit.LORecordingState",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LORecordingState",
+                        "printedName": "LOInterpreterPodKit.LORecordingState",
+                        "usr": "s:19LOInterpreterPodKit16LORecordingStateO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LOInterpreterReciveMessage",
+                        "printedName": "LOInterpreterPodKit.LOInterpreterReciveMessage",
+                        "usr": "s:19LOInterpreterPodKit0A13ReciveMessageV"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "LOInterpreterPodKit.LORecordingState.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LORecordingState",
+                        "printedName": "LOInterpreterPodKit.LORecordingState",
+                        "usr": "s:19LOInterpreterPodKit16LORecordingStateO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:19LOInterpreterPodKit16LORecordingStateO21streamMessageReceivedyAcA0a6ReciveG0VcACmF",
+            "mangledName": "$s19LOInterpreterPodKit16LORecordingStateO21streamMessageReceivedyAcA0a6ReciveG0VcACmF",
+            "moduleName": "LOInterpreterPodKit",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "failure",
+            "printedName": "failure",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(LOInterpreterPodKit.LORecordingState.Type) -> (LOInterpreterPodKit.LOInterpreterError) -> LOInterpreterPodKit.LORecordingState",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(LOInterpreterPodKit.LOInterpreterError) -> LOInterpreterPodKit.LORecordingState",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LORecordingState",
+                        "printedName": "LOInterpreterPodKit.LORecordingState",
+                        "usr": "s:19LOInterpreterPodKit16LORecordingStateO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LOInterpreterError",
+                        "printedName": "LOInterpreterPodKit.LOInterpreterError",
+                        "usr": "s:19LOInterpreterPodKit0A5ErrorO"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "LOInterpreterPodKit.LORecordingState.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LORecordingState",
+                        "printedName": "LOInterpreterPodKit.LORecordingState",
+                        "usr": "s:19LOInterpreterPodKit16LORecordingStateO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:19LOInterpreterPodKit16LORecordingStateO7failureyAcA0A5ErrorOcACmF",
+            "mangledName": "$s19LOInterpreterPodKit16LORecordingStateO7failureyAcA0A5ErrorOcACmF",
+            "moduleName": "LOInterpreterPodKit",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "didLeaveChannel",
+            "printedName": "didLeaveChannel",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(LOInterpreterPodKit.LORecordingState.Type) -> LOInterpreterPodKit.LORecordingState",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LORecordingState",
+                    "printedName": "LOInterpreterPodKit.LORecordingState",
+                    "usr": "s:19LOInterpreterPodKit16LORecordingStateO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "LOInterpreterPodKit.LORecordingState.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LORecordingState",
+                        "printedName": "LOInterpreterPodKit.LORecordingState",
+                        "usr": "s:19LOInterpreterPodKit16LORecordingStateO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:19LOInterpreterPodKit16LORecordingStateO15didLeaveChannelyA2CmF",
+            "mangledName": "$s19LOInterpreterPodKit16LORecordingStateO15didLeaveChannelyA2CmF",
+            "moduleName": "LOInterpreterPodKit",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "stoppedByBLE",
+            "printedName": "stoppedByBLE",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(LOInterpreterPodKit.LORecordingState.Type) -> (Swift.Int, Foundation.Data, Swift.UInt8) -> LOInterpreterPodKit.LORecordingState",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Int, Foundation.Data, Swift.UInt8) -> LOInterpreterPodKit.LORecordingState",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LORecordingState",
+                        "printedName": "LOInterpreterPodKit.LORecordingState",
+                        "usr": "s:19LOInterpreterPodKit16LORecordingStateO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(type: Swift.Int, sessionId: Foundation.Data, status: Swift.UInt8)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Int",
+                            "printedName": "Swift.Int",
+                            "usr": "s:Si"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Data",
+                            "printedName": "Foundation.Data",
+                            "usr": "s:10Foundation4DataV"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "UInt8",
+                            "printedName": "Swift.UInt8",
+                            "usr": "s:s5UInt8V"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "LOInterpreterPodKit.LORecordingState.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LORecordingState",
+                        "printedName": "LOInterpreterPodKit.LORecordingState",
+                        "usr": "s:19LOInterpreterPodKit16LORecordingStateO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:19LOInterpreterPodKit16LORecordingStateO12stoppedByBLEyACSi_10Foundation4DataVs5UInt8VtcACmF",
+            "mangledName": "$s19LOInterpreterPodKit16LORecordingStateO12stoppedByBLEyACSi_10Foundation4DataVs5UInt8VtcACmF",
+            "moduleName": "LOInterpreterPodKit",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:19LOInterpreterPodKit16LORecordingStateO",
+        "mangledName": "$s19LOInterpreterPodKit16LORecordingStateO",
+        "moduleName": "LOInterpreterPodKit",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LOInterpreterPodKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "LOInterpreterPodKit"
+      },
+      {
+        "kind": "Import",
+        "name": "LONetworkKit",
+        "printedName": "LONetworkKit",
+        "declKind": "Import",
+        "moduleName": "LOInterpreterPodKit"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "LOInterpreterCore",
+        "printedName": "LOInterpreterCore",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "translationPublisher",
+            "printedName": "translationPublisher",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PassthroughSubject",
+                "printedName": "Combine.PassthroughSubject<LOInterpreterPodKit.LOInterpreterReciveMessage, Swift.Never>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LOInterpreterReciveMessage",
+                    "printedName": "LOInterpreterPodKit.LOInterpreterReciveMessage",
+                    "usr": "s:19LOInterpreterPodKit0A13ReciveMessageV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Never",
+                    "printedName": "Swift.Never",
+                    "usr": "s:s5NeverO"
+                  }
+                ],
+                "usr": "s:7Combine18PassthroughSubjectC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:19LOInterpreterPodKit0A4CoreC20translationPublisher7Combine18PassthroughSubjectCyAA0A13ReciveMessageVs5NeverOGvp",
+            "mangledName": "$s19LOInterpreterPodKit0A4CoreC20translationPublisher7Combine18PassthroughSubjectCyAA0A13ReciveMessageVs5NeverOGvp",
+            "moduleName": "LOInterpreterPodKit",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PassthroughSubject",
+                    "printedName": "Combine.PassthroughSubject<LOInterpreterPodKit.LOInterpreterReciveMessage, Swift.Never>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LOInterpreterReciveMessage",
+                        "printedName": "LOInterpreterPodKit.LOInterpreterReciveMessage",
+                        "usr": "s:19LOInterpreterPodKit0A13ReciveMessageV"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Never",
+                        "printedName": "Swift.Never",
+                        "usr": "s:s5NeverO"
+                      }
+                    ],
+                    "usr": "s:7Combine18PassthroughSubjectC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19LOInterpreterPodKit0A4CoreC20translationPublisher7Combine18PassthroughSubjectCyAA0A13ReciveMessageVs5NeverOGvg",
+                "mangledName": "$s19LOInterpreterPodKit0A4CoreC20translationPublisher7Combine18PassthroughSubjectCyAA0A13ReciveMessageVs5NeverOGvg",
+                "moduleName": "LOInterpreterPodKit",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "streamingStatePublisher",
+            "printedName": "streamingStatePublisher",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PassthroughSubject",
+                "printedName": "Combine.PassthroughSubject<LOInterpreterPodKit.LORecordingState, Swift.Never>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LORecordingState",
+                    "printedName": "LOInterpreterPodKit.LORecordingState",
+                    "usr": "s:19LOInterpreterPodKit16LORecordingStateO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Never",
+                    "printedName": "Swift.Never",
+                    "usr": "s:s5NeverO"
+                  }
+                ],
+                "usr": "s:7Combine18PassthroughSubjectC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:19LOInterpreterPodKit0A4CoreC23streamingStatePublisher7Combine18PassthroughSubjectCyAA011LORecordingF0Os5NeverOGvp",
+            "mangledName": "$s19LOInterpreterPodKit0A4CoreC23streamingStatePublisher7Combine18PassthroughSubjectCyAA011LORecordingF0Os5NeverOGvp",
+            "moduleName": "LOInterpreterPodKit",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PassthroughSubject",
+                    "printedName": "Combine.PassthroughSubject<LOInterpreterPodKit.LORecordingState, Swift.Never>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LORecordingState",
+                        "printedName": "LOInterpreterPodKit.LORecordingState",
+                        "usr": "s:19LOInterpreterPodKit16LORecordingStateO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Never",
+                        "printedName": "Swift.Never",
+                        "usr": "s:s5NeverO"
+                      }
+                    ],
+                    "usr": "s:7Combine18PassthroughSubjectC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19LOInterpreterPodKit0A4CoreC23streamingStatePublisher7Combine18PassthroughSubjectCyAA011LORecordingF0Os5NeverOGvg",
+                "mangledName": "$s19LOInterpreterPodKit0A4CoreC23streamingStatePublisher7Combine18PassthroughSubjectCyAA011LORecordingF0Os5NeverOGvg",
+                "moduleName": "LOInterpreterPodKit",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(config:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "LOInterpreterCore",
+                "printedName": "LOInterpreterPodKit.LOInterpreterCore",
+                "usr": "s:19LOInterpreterPodKit0A4CoreC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "LOInterpreterConfig",
+                "printedName": "LOInterpreterPodKit.LOInterpreterConfig",
+                "usr": "s:19LOInterpreterPodKit0A6ConfigV"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:19LOInterpreterPodKit0A4CoreC6configAcA0A6ConfigV_tcfc",
+            "mangledName": "$s19LOInterpreterPodKit0A4CoreC6configAcA0A6ConfigV_tcfc",
+            "moduleName": "LOInterpreterPodKit",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "start",
+            "printedName": "start()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:19LOInterpreterPodKit0A4CoreC5startyyF",
+            "mangledName": "$s19LOInterpreterPodKit0A4CoreC5startyyF",
+            "moduleName": "LOInterpreterPodKit",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "stop",
+            "printedName": "stop()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:19LOInterpreterPodKit0A4CoreC4stopyyF",
+            "mangledName": "$s19LOInterpreterPodKit0A4CoreC4stopyyF",
+            "moduleName": "LOInterpreterPodKit",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "muteRemoteAudioStream",
+            "printedName": "muteRemoteAudioStream(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:19LOInterpreterPodKit0A4CoreC21muteRemoteAudioStreamyySbF",
+            "mangledName": "$s19LOInterpreterPodKit0A4CoreC21muteRemoteAudioStreamyySbF",
+            "moduleName": "LOInterpreterPodKit",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:19LOInterpreterPodKit0A4CoreC",
+        "mangledName": "$s19LOInterpreterPodKit0A4CoreC",
+        "moduleName": "LOInterpreterPodKit",
+        "declAttributes": [
+          "AccessControl",
+          "Final"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LOInterpreterPodKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
         "kind": "Import",
         "name": "LOBleKit",
         "printedName": "LOBleKit",
@@ -2436,6 +2736,26 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LOInterpreterPodKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SQLite",
+        "printedName": "SQLite",
+        "declKind": "Import",
+        "moduleName": "LOInterpreterPodKit",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "LOLibopus",
         "printedName": "LOLibopus",
         "declKind": "Import",
@@ -2519,30 +2839,21 @@
       },
       {
         "kind": "Import",
+        "name": "SQLite",
+        "printedName": "SQLite",
+        "declKind": "Import",
+        "moduleName": "LOInterpreterPodKit",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
-        "moduleName": "LOInterpreterPodKit",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "SQLite",
-        "printedName": "SQLite",
-        "declKind": "Import",
         "moduleName": "LOInterpreterPodKit"
-      },
-      {
-        "kind": "Import",
-        "name": "SQLite",
-        "printedName": "SQLite",
-        "declKind": "Import",
-        "moduleName": "LOInterpreterPodKit",
-        "declAttributes": [
-          "RawDocComment"
-        ]
       },
       {
         "kind": "TypeDecl",
@@ -4225,7 +4536,10 @@
         "name": "SQLite",
         "printedName": "SQLite",
         "declKind": "Import",
-        "moduleName": "LOInterpreterPodKit"
+        "moduleName": "LOInterpreterPodKit",
+        "declAttributes": [
+          "AccessControl"
+        ]
       },
       {
         "kind": "TypeDecl",
@@ -4935,306 +5249,6 @@
         "moduleName": "LOInterpreterPodKit",
         "declAttributes": [
           "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Combine",
-        "printedName": "Combine",
-        "declKind": "Import",
-        "moduleName": "LOInterpreterPodKit"
-      },
-      {
-        "kind": "Import",
-        "name": "LONetworkKit",
-        "printedName": "LONetworkKit",
-        "declKind": "Import",
-        "moduleName": "LOInterpreterPodKit"
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "LOInterpreterCore",
-        "printedName": "LOInterpreterCore",
-        "children": [
-          {
-            "kind": "Var",
-            "name": "translationPublisher",
-            "printedName": "translationPublisher",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "PassthroughSubject",
-                "printedName": "Combine.PassthroughSubject<LOInterpreterPodKit.LOInterpreterReciveMessage, Swift.Never>",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "LOInterpreterReciveMessage",
-                    "printedName": "LOInterpreterPodKit.LOInterpreterReciveMessage",
-                    "usr": "s:19LOInterpreterPodKit0A13ReciveMessageV"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Never",
-                    "printedName": "Swift.Never",
-                    "usr": "s:s5NeverO"
-                  }
-                ],
-                "usr": "s:7Combine18PassthroughSubjectC"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:19LOInterpreterPodKit0A4CoreC20translationPublisher7Combine18PassthroughSubjectCyAA0A13ReciveMessageVs5NeverOGvp",
-            "mangledName": "$s19LOInterpreterPodKit0A4CoreC20translationPublisher7Combine18PassthroughSubjectCyAA0A13ReciveMessageVs5NeverOGvp",
-            "moduleName": "LOInterpreterPodKit",
-            "declAttributes": [
-              "HasInitialValue",
-              "Final",
-              "HasStorage",
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "PassthroughSubject",
-                    "printedName": "Combine.PassthroughSubject<LOInterpreterPodKit.LOInterpreterReciveMessage, Swift.Never>",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "LOInterpreterReciveMessage",
-                        "printedName": "LOInterpreterPodKit.LOInterpreterReciveMessage",
-                        "usr": "s:19LOInterpreterPodKit0A13ReciveMessageV"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Never",
-                        "printedName": "Swift.Never",
-                        "usr": "s:s5NeverO"
-                      }
-                    ],
-                    "usr": "s:7Combine18PassthroughSubjectC"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:19LOInterpreterPodKit0A4CoreC20translationPublisher7Combine18PassthroughSubjectCyAA0A13ReciveMessageVs5NeverOGvg",
-                "mangledName": "$s19LOInterpreterPodKit0A4CoreC20translationPublisher7Combine18PassthroughSubjectCyAA0A13ReciveMessageVs5NeverOGvg",
-                "moduleName": "LOInterpreterPodKit",
-                "implicit": true,
-                "declAttributes": [
-                  "Final"
-                ],
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "streamingStatePublisher",
-            "printedName": "streamingStatePublisher",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "PassthroughSubject",
-                "printedName": "Combine.PassthroughSubject<LOInterpreterPodKit.LORecordingState, Swift.Never>",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "LORecordingState",
-                    "printedName": "LOInterpreterPodKit.LORecordingState",
-                    "usr": "s:19LOInterpreterPodKit16LORecordingStateO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Never",
-                    "printedName": "Swift.Never",
-                    "usr": "s:s5NeverO"
-                  }
-                ],
-                "usr": "s:7Combine18PassthroughSubjectC"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:19LOInterpreterPodKit0A4CoreC23streamingStatePublisher7Combine18PassthroughSubjectCyAA011LORecordingF0Os5NeverOGvp",
-            "mangledName": "$s19LOInterpreterPodKit0A4CoreC23streamingStatePublisher7Combine18PassthroughSubjectCyAA011LORecordingF0Os5NeverOGvp",
-            "moduleName": "LOInterpreterPodKit",
-            "declAttributes": [
-              "HasInitialValue",
-              "Final",
-              "HasStorage",
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "PassthroughSubject",
-                    "printedName": "Combine.PassthroughSubject<LOInterpreterPodKit.LORecordingState, Swift.Never>",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "LORecordingState",
-                        "printedName": "LOInterpreterPodKit.LORecordingState",
-                        "usr": "s:19LOInterpreterPodKit16LORecordingStateO"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Never",
-                        "printedName": "Swift.Never",
-                        "usr": "s:s5NeverO"
-                      }
-                    ],
-                    "usr": "s:7Combine18PassthroughSubjectC"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:19LOInterpreterPodKit0A4CoreC23streamingStatePublisher7Combine18PassthroughSubjectCyAA011LORecordingF0Os5NeverOGvg",
-                "mangledName": "$s19LOInterpreterPodKit0A4CoreC23streamingStatePublisher7Combine18PassthroughSubjectCyAA011LORecordingF0Os5NeverOGvg",
-                "moduleName": "LOInterpreterPodKit",
-                "implicit": true,
-                "declAttributes": [
-                  "Final"
-                ],
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(config:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "LOInterpreterCore",
-                "printedName": "LOInterpreterPodKit.LOInterpreterCore",
-                "usr": "s:19LOInterpreterPodKit0A4CoreC"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "LOInterpreterConfig",
-                "printedName": "LOInterpreterPodKit.LOInterpreterConfig",
-                "usr": "s:19LOInterpreterPodKit0A6ConfigV"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:19LOInterpreterPodKit0A4CoreC6configAcA0A6ConfigV_tcfc",
-            "mangledName": "$s19LOInterpreterPodKit0A4CoreC6configAcA0A6ConfigV_tcfc",
-            "moduleName": "LOInterpreterPodKit",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "init_kind": "Designated"
-          },
-          {
-            "kind": "Function",
-            "name": "start",
-            "printedName": "start()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:19LOInterpreterPodKit0A4CoreC5startyyF",
-            "mangledName": "$s19LOInterpreterPodKit0A4CoreC5startyyF",
-            "moduleName": "LOInterpreterPodKit",
-            "declAttributes": [
-              "Final",
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "stop",
-            "printedName": "stop()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:19LOInterpreterPodKit0A4CoreC4stopyyF",
-            "mangledName": "$s19LOInterpreterPodKit0A4CoreC4stopyyF",
-            "moduleName": "LOInterpreterPodKit",
-            "declAttributes": [
-              "Final",
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "muteRemoteAudioStream",
-            "printedName": "muteRemoteAudioStream(_:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:19LOInterpreterPodKit0A4CoreC21muteRemoteAudioStreamyySbF",
-            "mangledName": "$s19LOInterpreterPodKit0A4CoreC21muteRemoteAudioStreamyySbF",
-            "moduleName": "LOInterpreterPodKit",
-            "declAttributes": [
-              "Final",
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "funcSelfKind": "NonMutating"
-          }
-        ],
-        "declKind": "Class",
-        "usr": "s:19LOInterpreterPodKit0A4CoreC",
-        "mangledName": "$s19LOInterpreterPodKit0A4CoreC",
-        "moduleName": "LOInterpreterPodKit",
-        "declAttributes": [
-          "AccessControl",
-          "Final"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          }
         ]
       },
       {
@@ -6496,6 +6510,33 @@
       },
       {
         "kind": "Import",
+        "name": "Moya",
+        "printedName": "Moya",
+        "declKind": "Import",
+        "moduleName": "LOInterpreterPodKit",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LOInterpreterPodKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AgoraRtcKit",
+        "printedName": "AgoraRtcKit",
+        "declKind": "Import",
+        "moduleName": "LOInterpreterPodKit"
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -7550,8 +7591,8 @@
       },
       {
         "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
+        "name": "LONetworkKit",
+        "printedName": "LONetworkKit",
         "declKind": "Import",
         "moduleName": "LOInterpreterPodKit",
         "declAttributes": [
@@ -7560,10 +7601,13 @@
       },
       {
         "kind": "Import",
-        "name": "AgoraRtcKit",
-        "printedName": "AgoraRtcKit",
+        "name": "Moya",
+        "printedName": "Moya",
         "declKind": "Import",
-        "moduleName": "LOInterpreterPodKit"
+        "moduleName": "LOInterpreterPodKit",
+        "declAttributes": [
+          "AccessControl"
+        ]
       },
       {
         "kind": "Import",
@@ -7580,24 +7624,20 @@
         "name": "SQLite",
         "printedName": "SQLite",
         "declKind": "Import",
-        "moduleName": "LOInterpreterPodKit"
+        "moduleName": "LOInterpreterPodKit",
+        "declAttributes": [
+          "AccessControl"
+        ]
       },
       {
         "kind": "Import",
-        "name": "LONetworkKit",
-        "printedName": "LONetworkKit",
+        "name": "Foundation",
+        "printedName": "Foundation",
         "declKind": "Import",
         "moduleName": "LOInterpreterPodKit",
         "declAttributes": [
           "RawDocComment"
         ]
-      },
-      {
-        "kind": "Import",
-        "name": "Moya",
-        "printedName": "Moya",
-        "declKind": "Import",
-        "moduleName": "LOInterpreterPodKit"
       },
       {
         "kind": "TypeDecl",
@@ -8377,11 +8417,12 @@
       },
       {
         "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
+        "name": "Moya",
+        "printedName": "Moya",
         "declKind": "Import",
         "moduleName": "LOInterpreterPodKit",
         "declAttributes": [
+          "AccessControl",
           "RawDocComment"
         ]
       }
@@ -8389,20 +8430,6 @@
     "json_format_version": 8
   },
   "ConstValues": [
-    {
-      "filePath": "\/Users\/wayne\/Desktop\/project\/LOInterpreterKit\/LOInterpreterKit\/Sources\/Core\/LOInterpreterTableName.swift",
-      "kind": "StringLiteral",
-      "offset": 150,
-      "length": 19,
-      "value": "\"lo_interpretation\""
-    },
-    {
-      "filePath": "\/Users\/wayne\/Desktop\/project\/LOInterpreterKit\/LOInterpreterKit\/Sources\/Core\/LOInterpreterTableName.swift",
-      "kind": "StringLiteral",
-      "offset": 208,
-      "length": 32,
-      "value": "\"lo_interpretation_conversation\""
-    },
     {
       "filePath": "\/Users\/wayne\/Desktop\/project\/LOInterpreterKit\/LOInterpreterKit\/Sources\/Core\/LOInterpreterAudioStream.swift",
       "kind": "IntegerLiteral",
@@ -8472,6 +8499,20 @@
       "offset": 1409,
       "length": 2,
       "value": "-1"
+    },
+    {
+      "filePath": "\/Users\/wayne\/Desktop\/project\/LOInterpreterKit\/LOInterpreterKit\/Sources\/Core\/LOInterpreterTableName.swift",
+      "kind": "StringLiteral",
+      "offset": 150,
+      "length": 19,
+      "value": "\"lo_interpretation\""
+    },
+    {
+      "filePath": "\/Users\/wayne\/Desktop\/project\/LOInterpreterKit\/LOInterpreterKit\/Sources\/Core\/LOInterpreterTableName.swift",
+      "kind": "StringLiteral",
+      "offset": 208,
+      "length": 32,
+      "value": "\"lo_interpretation_conversation\""
     },
     {
       "filePath": "\/Users\/wayne\/Desktop\/project\/LOInterpreterKit\/LOInterpreterKit\/Sources\/Core\/LOInterpreterConfig.swift",
@@ -8551,6 +8592,13 @@
       "value": "\"\""
     },
     {
+      "filePath": "\/Users\/wayne\/Desktop\/project\/LOInterpreterKit\/LOInterpreterKit\/Sources\/Core\/LOInterpreterCore.swift",
+      "kind": "StringLiteral",
+      "offset": 793,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
       "filePath": "\/Users\/wayne\/Desktop\/project\/LOInterpreterKit\/LOInterpreterKit\/Sources\/Core\/LOTranslationParser.swift",
       "kind": "Dictionary",
       "offset": 2568,
@@ -8593,6 +8641,20 @@
       "value": "2"
     },
     {
+      "filePath": "\/Users\/wayne\/Desktop\/project\/LOInterpreterKit\/LOInterpreterKit\/Sources\/Core\/LOInterpreterDatabase.swift",
+      "kind": "IntegerLiteral",
+      "offset": 200,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/wayne\/Desktop\/project\/LOInterpreterKit\/LOInterpreterKit\/Sources\/Core\/LOInterpreterDatabase.swift",
+      "kind": "StringLiteral",
+      "offset": 569,
+      "length": 38,
+      "value": "\"com.lian-o.interpreter.databaseQueue\""
+    },
+    {
       "filePath": "\/Users\/wayne\/Desktop\/project\/LOInterpreterKit\/LOInterpreterKit\/Sources\/WithPod\/LOOpusDecoderWrapper.swift",
       "kind": "IntegerLiteral",
       "offset": 293,
@@ -8614,67 +8676,46 @@
       "value": "960"
     },
     {
-      "filePath": "\/Users\/wayne\/Desktop\/project\/LOInterpreterKit\/LOInterpreterKit\/Sources\/Core\/LOInterpreterDatabase.swift",
-      "kind": "IntegerLiteral",
-      "offset": 191,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/wayne\/Desktop\/project\/LOInterpreterKit\/LOInterpreterKit\/Sources\/Core\/LOInterpreterDatabase.swift",
-      "kind": "StringLiteral",
-      "offset": 560,
-      "length": 38,
-      "value": "\"com.lian-o.interpreter.databaseQueue\""
-    },
-    {
       "filePath": "\/Users\/wayne\/Desktop\/project\/LOInterpreterKit\/LOInterpreterKit\/Sources\/Core\/LOInterpreterDBManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 2879,
+      "offset": 2906,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/wayne\/Desktop\/project\/LOInterpreterKit\/LOInterpreterKit\/Sources\/Core\/LOInterpreterDBManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 4080,
+      "offset": 4107,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/wayne\/Desktop\/project\/LOInterpreterKit\/LOInterpreterKit\/Sources\/Core\/LOInterpreterDBManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 5187,
+      "offset": 5214,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/wayne\/Desktop\/project\/LOInterpreterKit\/LOInterpreterKit\/Sources\/Core\/LOInterpreterDetailDBManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 532,
+      "offset": 541,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/wayne\/Desktop\/project\/LOInterpreterKit\/LOInterpreterKit\/Sources\/Core\/LOInterpreterDetailDBManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 7538,
+      "offset": 7547,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/wayne\/Desktop\/project\/LOInterpreterKit\/LOInterpreterKit\/Sources\/Core\/LOInterpreterDetailDBManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 12256,
+      "offset": 12265,
       "length": 2,
       "value": "-1"
-    },
-    {
-      "filePath": "\/Users\/wayne\/Desktop\/project\/LOInterpreterKit\/LOInterpreterKit\/LOInterpreterCore.swift",
-      "kind": "StringLiteral",
-      "offset": 793,
-      "length": 2,
-      "value": "\"\""
     },
     {
       "filePath": "\/Users\/wayne\/Desktop\/project\/LOInterpreterKit\/LOInterpreterKit\/Sources\/Core\/LOInterpreterError.swift",
@@ -8703,48 +8744,6 @@
       "offset": 586,
       "length": 6,
       "value": "3"
-    },
-    {
-      "filePath": "\/Users\/wayne\/Desktop\/project\/LOInterpreterKit\/LOInterpreterKit\/Sources\/Core\/LOInterpreterLogger.swift",
-      "kind": "IntegerLiteral",
-      "offset": 164,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/wayne\/Desktop\/project\/LOInterpreterKit\/LOInterpreterKit\/Sources\/Core\/LOInterpreterLogger.swift",
-      "kind": "IntegerLiteral",
-      "offset": 175,
-      "length": 5,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/wayne\/Desktop\/project\/LOInterpreterKit\/LOInterpreterKit\/Sources\/Core\/LOInterpreterLogger.swift",
-      "kind": "IntegerLiteral",
-      "offset": 190,
-      "length": 4,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/wayne\/Desktop\/project\/LOInterpreterKit\/LOInterpreterKit\/Sources\/Core\/LOInterpreterLogger.swift",
-      "kind": "IntegerLiteral",
-      "offset": 204,
-      "length": 7,
-      "value": "3"
-    },
-    {
-      "filePath": "\/Users\/wayne\/Desktop\/project\/LOInterpreterKit\/LOInterpreterKit\/Sources\/Core\/LOInterpreterLogger.swift",
-      "kind": "IntegerLiteral",
-      "offset": 221,
-      "length": 5,
-      "value": "4"
-    },
-    {
-      "filePath": "\/Users\/wayne\/Desktop\/project\/LOInterpreterKit\/LOInterpreterKit\/Sources\/Core\/LOInterpreterLogger.swift",
-      "kind": "StringLiteral",
-      "offset": 871,
-      "length": 18,
-      "value": "\"LOInterpreterKit\""
     },
     {
       "filePath": "\/Users\/wayne\/Desktop\/project\/LOInterpreterKit\/LOInterpreterKit\/Sources\/Core\/LOAgoraGlobalSettings.swift",
@@ -8796,53 +8795,95 @@
       "value": "false"
     },
     {
+      "filePath": "\/Users\/wayne\/Desktop\/project\/LOInterpreterKit\/LOInterpreterKit\/Sources\/Core\/LOInterpreterLogger.swift",
+      "kind": "IntegerLiteral",
+      "offset": 164,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/wayne\/Desktop\/project\/LOInterpreterKit\/LOInterpreterKit\/Sources\/Core\/LOInterpreterLogger.swift",
+      "kind": "IntegerLiteral",
+      "offset": 175,
+      "length": 5,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/wayne\/Desktop\/project\/LOInterpreterKit\/LOInterpreterKit\/Sources\/Core\/LOInterpreterLogger.swift",
+      "kind": "IntegerLiteral",
+      "offset": 190,
+      "length": 4,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/wayne\/Desktop\/project\/LOInterpreterKit\/LOInterpreterKit\/Sources\/Core\/LOInterpreterLogger.swift",
+      "kind": "IntegerLiteral",
+      "offset": 204,
+      "length": 7,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/wayne\/Desktop\/project\/LOInterpreterKit\/LOInterpreterKit\/Sources\/Core\/LOInterpreterLogger.swift",
+      "kind": "IntegerLiteral",
+      "offset": 221,
+      "length": 5,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/wayne\/Desktop\/project\/LOInterpreterKit\/LOInterpreterKit\/Sources\/Core\/LOInterpreterLogger.swift",
+      "kind": "StringLiteral",
+      "offset": 871,
+      "length": 18,
+      "value": "\"LOInterpreterKit\""
+    },
+    {
+      "filePath": "\/Users\/wayne\/Desktop\/project\/LOInterpreterKit\/LOInterpreterKit\/Sources\/Core\/LOAgoraTokenManager.swift",
+      "kind": "Array",
+      "offset": 3494,
+      "length": 2,
+      "value": "[]"
+    },
+    {
       "filePath": "\/Users\/wayne\/Desktop\/project\/LOInterpreterKit\/LOInterpreterKit\/Sources\/Core\/LOInterpreterMigrationManager.swift",
       "kind": "StringLiteral",
-      "offset": 364,
+      "offset": 373,
       "length": 19,
       "value": "\"schema_migrations\""
     },
     {
       "filePath": "\/Users\/wayne\/Desktop\/project\/LOInterpreterKit\/LOInterpreterKit\/Sources\/Core\/LOInterpreterMigrationManager.swift",
       "kind": "StringLiteral",
-      "offset": 432,
+      "offset": 441,
       "length": 9,
       "value": "\"version\""
     },
     {
       "filePath": "\/Users\/wayne\/Desktop\/project\/LOInterpreterKit\/LOInterpreterKit\/Sources\/Core\/LOInterpreterMigrationManager.swift",
       "kind": "Array",
-      "offset": 946,
+      "offset": 955,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/wayne\/Desktop\/project\/LOInterpreterKit\/LOInterpreterKit\/Sources\/Core\/LOInterpreterMigrationManager.swift",
       "kind": "Array",
-      "offset": 1498,
+      "offset": 1507,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/wayne\/Desktop\/project\/LOInterpreterKit\/LOInterpreterKit\/Sources\/Core\/LOInterpreterMigrationManager.swift",
       "kind": "Array",
-      "offset": 2080,
+      "offset": 2089,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/wayne\/Desktop\/project\/LOInterpreterKit\/LOInterpreterKit\/Sources\/Core\/LOInterpreterMigrationManager.swift",
       "kind": "StringLiteral",
-      "offset": 7892,
+      "offset": 7901,
       "length": 30,
       "value": "\"^(\\d+)_?([\\w\\s-]*)\\.sql$\""
-    },
-    {
-      "filePath": "\/Users\/wayne\/Desktop\/project\/LOInterpreterKit\/LOInterpreterKit\/Sources\/Core\/LOAgoraTokenManager.swift",
-      "kind": "Array",
-      "offset": 3485,
-      "length": 2,
-      "value": "[]"
     },
     {
       "filePath": "\/Users\/wayne\/Desktop\/project\/LOInterpreterKit\/LOInterpreterKit\/Sources\/Core\/LOInterpreterReciveMessage.swift",
