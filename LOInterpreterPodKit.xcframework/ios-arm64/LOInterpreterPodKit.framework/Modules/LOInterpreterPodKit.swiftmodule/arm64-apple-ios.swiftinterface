@@ -1,6 +1,6 @@
 // swift-interface-format-version: 1.0
 // swift-compiler-version: Apple Swift version 6.1.2 effective-5.10 (swiftlang-6.1.2.1.2 clang-1700.0.13.5)
-// swift-module-flags: -target arm64-apple-ios15 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name LOInterpreterPodKit
+// swift-module-flags: -target arm64-apple-ios15.1 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name LOInterpreterPodKit
 // swift-module-flags-ignorable:  -interface-compiler-version 6.1.2
 import AgoraRtcKit
 import Combine
@@ -12,6 +12,18 @@ import Swift
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
+public struct LOInterpreterReciveMessage : Swift.Codable {
+  public var isFinal: Swift.Bool
+  public var streamId: Swift.Int
+  public var messageId: Swift.String
+  public var dataType: Swift.String
+  public var textTs: Swift.Int
+  public var text: Swift.String
+  public var syncTime: Swift.Int
+  public var languageCode: Swift.String
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
 public struct LOInterpretationType : Swift.Equatable {
   public let rawValue: Swift.Int
   public let equityType: Swift.String
@@ -185,18 +197,6 @@ public struct LOInterpreterLogger {
   public static func info(_ msg: @autoclosure () -> Swift.String, file: Swift.String = #file, function: Swift.String = #function, line: Swift.Int = #line)
   public static func warning(_ msg: @autoclosure () -> Swift.String, file: Swift.String = #file, function: Swift.String = #function, line: Swift.Int = #line)
   public static func error(_ msg: @autoclosure () -> Swift.String, file: Swift.String = #file, function: Swift.String = #function, line: Swift.Int = #line)
-}
-public struct LOInterpreterReciveMessage : Swift.Codable {
-  public var isFinal: Swift.Bool
-  public var streamId: Swift.Int
-  public var messageId: Swift.String
-  public var dataType: Swift.String
-  public var textTs: Swift.Int
-  public var text: Swift.String
-  public var syncTime: Swift.Int
-  public var languageCode: Swift.String
-  public func encode(to encoder: any Swift.Encoder) throws
-  public init(from decoder: any Swift.Decoder) throws
 }
 extension LOInterpreterPodKit.LOAudioInputMode : Swift.Equatable {}
 extension LOInterpreterPodKit.LOAudioInputMode : Swift.Hashable {}
