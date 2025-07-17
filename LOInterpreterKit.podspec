@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'LOInterpreterKit'
-  s.version          = '0.1.22'
+  s.version          = '0.1.23'
   s.summary          = 'LOInterpreterKit components'
   s.description      = <<-DESC
   LOInterpreterKit is a real-time interpretation SDK for iOS, enabling two-way voice translation using BLE or built-in mic.
