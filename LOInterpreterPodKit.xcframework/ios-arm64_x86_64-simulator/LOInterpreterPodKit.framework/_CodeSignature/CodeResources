@@ -4,121 +4,165 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>Alamofire.bundle/Info.plist</key>
+		<data>
+		Wpcp7f/QU42Hd3AUQ1SZL9xtj7w=
+		</data>
+		<key>Alamofire.bundle/PrivacyInfo.xcprivacy</key>
+		<data>
+		ovFJMFOLMjzh8DLJKmXncj8JIgU=
+		</data>
 		<key>Info.plist</key>
 		<data>
 		Dhmxqyu4NNgJhHUV0OkhOYpgsvo=
 		</data>
 		<key>Modules/LOInterpreterPodKit.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		tYy7V2+Wosh/uBIDKUep77gYXs8=
+		Y+btpLTZEUlv5EGJDE+m40Do/xo=
 		</data>
 		<key>Modules/LOInterpreterPodKit.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		jiAvLs/kvpUnqta8dKZPrGrfYuY=
+		WwCafHsWkpanSgQXEcEOLeVzl8w=
 		</data>
 		<key>Modules/LOInterpreterPodKit.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		jI6fjzSyN26dUxof9o+KbhWExbE=
+		f1553er7dLRtdZcx9OCGtbc15ec=
 		</data>
 		<key>Modules/LOInterpreterPodKit.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		jiAvLs/kvpUnqta8dKZPrGrfYuY=
+		WwCafHsWkpanSgQXEcEOLeVzl8w=
 		</data>
 		<key>Modules/LOInterpreterPodKit.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		ABkFZgbhpzTNQx/iplgYRY7hFEU=
+		rxhVXe/Z2BJi3wLwkO0CKb9tb4U=
 		</data>
 		<key>Modules/LOInterpreterPodKit.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		tYy7V2+Wosh/uBIDKUep77gYXs8=
+		Y+btpLTZEUlv5EGJDE+m40Do/xo=
 		</data>
 		<key>Modules/LOInterpreterPodKit.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		NS2dGKc/hG1XQjXnX9QBdj0A1Sg=
+		mKkHuBdlrT1M7tcM5SJJVnSq+Vg=
 		</data>
 		<key>Modules/LOInterpreterPodKit.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		G0WzaUPw/+6ydyiyrlMajPOY+Y4=
+		edfQ37+q8W+0hcFaOz2AhgTw+M0=
 		</data>
 		<key>Modules/LOInterpreterPodKit.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		NS2dGKc/hG1XQjXnX9QBdj0A1Sg=
+		mKkHuBdlrT1M7tcM5SJJVnSq+Vg=
 		</data>
 		<key>Modules/LOInterpreterPodKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		u1ejxzPYk0EUOu0GxjENOCLCU5c=
+		jS3le6r35ito4pFPgYa1nnsN0mc=
+		</data>
+		<key>SQLite.swift.bundle/Info.plist</key>
+		<data>
+		eRmcBZbrObvoqV7uO27MceSnny8=
+		</data>
+		<key>SQLite.swift.bundle/PrivacyInfo.xcprivacy</key>
+		<data>
+		Rqi7obUAZTcbQXF8a5X94NQxhbQ=
 		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
+		<key>Alamofire.bundle/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			1w/rkjOJCyxwEi32sTHd7YZrWhOdgyE2AL2WfpXsbYc=
+			</data>
+		</dict>
+		<key>Alamofire.bundle/PrivacyInfo.xcprivacy</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			CNkOaUbb/qDQtbF/tlnXfu0j5EO3Rdjntbn6N4y3RHc=
+			</data>
+		</dict>
 		<key>Modules/LOInterpreterPodKit.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			f9UmylwCap6euEtzd2fKtWpPxyZPTcbBol4uakVDyOA=
+			8uvV6NhS1yxQsr0DR2yQNF2qUf0p4dqx42PDdWfuDLA=
 			</data>
 		</dict>
 		<key>Modules/LOInterpreterPodKit.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			PXX+all/fhhSf+OY1CDxYGdkWGvjcL1X1fXpQHPG+KE=
+			WO8CdzL4Dtmo8FSoUBNhwYVs34/LKLGD22z83VXPEVA=
 			</data>
 		</dict>
 		<key>Modules/LOInterpreterPodKit.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			NUiygd54jg9tCsXbaTzjh2ZFVKeSEqFwLrdEz0NarG0=
+			Zo8HnPG+TNVzgDIa/fGvHHA4/k2eekOrJs+xv4TPmfE=
 			</data>
 		</dict>
 		<key>Modules/LOInterpreterPodKit.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			PXX+all/fhhSf+OY1CDxYGdkWGvjcL1X1fXpQHPG+KE=
+			WO8CdzL4Dtmo8FSoUBNhwYVs34/LKLGD22z83VXPEVA=
 			</data>
 		</dict>
 		<key>Modules/LOInterpreterPodKit.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			eKfwgjbq9TFW1UcIHjuXo6p6NA1hlVJLqmCkOtPdXlk=
+			V48DBLZ61nyZKZM/W47ohsYY97+tYUP/r8H1UG/7X20=
 			</data>
 		</dict>
 		<key>Modules/LOInterpreterPodKit.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			f9UmylwCap6euEtzd2fKtWpPxyZPTcbBol4uakVDyOA=
+			8uvV6NhS1yxQsr0DR2yQNF2qUf0p4dqx42PDdWfuDLA=
 			</data>
 		</dict>
 		<key>Modules/LOInterpreterPodKit.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			yqWYrgf+hhtQFPOZlXPkC7b1gMvB9/i9nTn83Ke3SSY=
+			TWgQk3+cWmjlG+YyhR7FkiHLcEUvIKyxqrnlwv7tMn4=
 			</data>
 		</dict>
 		<key>Modules/LOInterpreterPodKit.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			N7+7HaTp/ZEaEWx6CZ3huaNStlpC2qarpt4vrXN4ZOQ=
+			7ikkV7o5A1ubo9lLNOcebXex9xxasemV7/VTo9cNYEk=
 			</data>
 		</dict>
 		<key>Modules/LOInterpreterPodKit.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			yqWYrgf+hhtQFPOZlXPkC7b1gMvB9/i9nTn83Ke3SSY=
+			TWgQk3+cWmjlG+YyhR7FkiHLcEUvIKyxqrnlwv7tMn4=
 			</data>
 		</dict>
 		<key>Modules/LOInterpreterPodKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			soVPvFQmmje1C9owaNLLhaXsB1lxvhpKmJIDBH7mbwA=
+			Rpr0qtOHc4gsGxU4iLKEiicYE4B3G18KRI0MdWSC9PY=
+			</data>
+		</dict>
+		<key>SQLite.swift.bundle/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			q7Ck+xXFk8WGwfI1iC1KdbunUr2ldJzl/NXBGzaWoko=
+			</data>
+		</dict>
+		<key>SQLite.swift.bundle/PrivacyInfo.xcprivacy</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			g1eTYkX9jkNUpHNetdb+DWoCoZMdH51E1dF2UmycZQE=
 			</data>
 		</dict>
 	</dict>

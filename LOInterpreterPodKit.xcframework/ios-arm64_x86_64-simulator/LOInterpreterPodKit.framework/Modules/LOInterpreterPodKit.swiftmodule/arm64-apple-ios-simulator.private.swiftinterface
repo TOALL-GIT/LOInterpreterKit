@@ -5,82 +5,23 @@
 import AgoraRtcKit
 import Combine
 import Foundation
-import LOBleKit
-import LOLibopus
-import LONetworkKit
+import Moya
+import SQLite
 import Swift
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
-public struct LOInterpretationType : Swift.Equatable {
-  public let rawValue: Swift.Int
-  public let equityType: Swift.String
-  public let graphName: Swift.String
-  public static let doubleTranslate: LOInterpreterPodKit.LOInterpretationType
-  public static let singTranslate: LOInterpreterPodKit.LOInterpretationType
-  public static func custom(rawValue: Swift.Int, equityType: Swift.String, graphName: Swift.String) -> LOInterpreterPodKit.LOInterpretationType
-  public static func == (a: LOInterpreterPodKit.LOInterpretationType, b: LOInterpreterPodKit.LOInterpretationType) -> Swift.Bool
-}
-public enum LOAudioInputMode {
-  case microphone
-  case ble
-  public static func == (a: LOInterpreterPodKit.LOAudioInputMode, b: LOInterpreterPodKit.LOAudioInputMode) -> Swift.Bool
-  public func hash(into hasher: inout Swift.Hasher)
-  public var hashValue: Swift.Int {
-    get
-  }
-}
-public struct LOInterpreterConfig {
-  public let audioInputMode: LOInterpreterPodKit.LOAudioInputMode
-  public let userId: Swift.Int
-  public let sourceLanguage: Swift.String
-  public let targetLanguage: Swift.String
-  public let speechLanguage: Swift.String
-  public let single: Swift.Bool?
-  public let type: LOInterpreterPodKit.LOInterpretationType
-  public let timeout: Foundation.TimeInterval
-  public let isMute: Swift.Bool
-  public let domain: Swift.String
-  public let dynamicDomain: Swift.String
-  public let conversationPrefix: Swift.String
-  public let paths: [Swift.String : Any]?
-  public let params: [Swift.String : Any]?
-  public init(audioInputMode: LOInterpreterPodKit.LOAudioInputMode, userId: Swift.Int, sourceLanguage: Swift.String, targetLanguage: Swift.String, speechLanguage: Swift.String, single: Swift.Bool = true, type: LOInterpreterPodKit.LOInterpretationType, timeout: Foundation.TimeInterval = 60 * 60, mute: Swift.Bool = true, conversationPrefix: Swift.String = "", domain: Swift.String, dynamicDomain: Swift.String, paths: [Swift.String : Any]? = nil, params: [Swift.String : Any]? = nil)
-}
-public enum LORecordingState {
-  case initial
-  case joiningChannel
-  case joined
-  case streaming
-  case streamMessageReceived(LOInterpreterPodKit.LOInterpreterReciveMessage)
-  case failure(LOInterpreterPodKit.LOInterpreterError)
-  case didLeaveChannel
-  case stoppedByBLE(type: Swift.Int, sessionId: Foundation.Data, status: Swift.UInt8)
-}
-final public class LOInterpreterCore {
-  final public let translationPublisher: Combine.PassthroughSubject<LOInterpreterPodKit.LOInterpreterReciveMessage, Swift.Never>
-  final public let streamingStatePublisher: Combine.PassthroughSubject<LOInterpreterPodKit.LORecordingState, Swift.Never>
-  public init(config: LOInterpreterPodKit.LOInterpreterConfig)
-  final public func start()
-  final public func stop()
-  final public func muteRemoteAudioStream(_ mute: Swift.Bool)
-  @objc deinit
-}
 public enum LOBLEAdapterVoiceEvent {
-  case voiceData(type: LOBleKit.RecordingType, sessionId: Foundation.Data, pcmData: Foundation.Data)
-  case voiceComplete(type: LOBleKit.RecordingType, sessionId: Foundation.Data, status: Swift.UInt8)
+  case voiceData(type: Swift.UInt8, sessionId: Foundation.Data, pcmData: Foundation.Data)
+  case voiceComplete(type: Swift.UInt8, sessionId: Foundation.Data, status: Swift.UInt8)
 }
 public enum LOBLEAdapterRecordingEvent {
-  case startRecording(type: LOBleKit.RecordingType, status: Swift.UInt8)
-  case stopRecording(type: LOBleKit.RecordingType)
+  case startRecording(type: Swift.UInt8, status: Swift.UInt8)
+  case stopRecording(type: Swift.UInt8)
 }
 @_hasMissingDesignatedInitializers public class LOInterpreterBLEAdapterBLE {
   final public let voiceEventSubject: Combine.PassthroughSubject<LOInterpreterPodKit.LOBLEAdapterVoiceEvent, Swift.Never>
   final public let recordingEventSubject: Combine.PassthroughSubject<LOInterpreterPodKit.LOBLEAdapterRecordingEvent, Swift.Never>
-  @objc deinit
-}
-public class LOOpusDecoderWrapper {
-  public init?(sampleRate: Swift.Int32 = 16000, channels: Swift.Int32 = 2)
   @objc deinit
 }
 public struct LOInterpreterHistoryModel {
@@ -112,6 +53,10 @@ public struct LOInterpreterDetailMsg : Swift.Codable {
   public func queryInterpretationConversationDetail(userId: Swift.Int64, historyId: Swift.Int64, queue: Dispatch.DispatchQueue = .main, completion: @escaping (LOInterpreterPodKit.LOInterpreterHistoryDetailModel?) -> Swift.Void)
   public func deleteInterpretationConversation(userId: Swift.Int64, historyId: Swift.Int64, queue: Dispatch.DispatchQueue = .main, completion: @escaping (Swift.Int) -> Swift.Void)
   public func updateTitle(userId: Swift.Int64, historyId: Swift.Int64, title: Swift.String, queue: Dispatch.DispatchQueue = .main, completion: @escaping (Swift.Int) -> Swift.Void)
+  @objc deinit
+}
+public class LOOpusDecoderWrapper {
+  public init?(sampleRate: Swift.Int32 = 16000, channels: Swift.Int32 = 2)
   @objc deinit
 }
 public struct LOInterpretationDetailDBModel {
@@ -198,10 +143,64 @@ public struct LOInterpreterReciveMessage : Swift.Codable {
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
 }
-extension LOInterpreterPodKit.LOAudioInputMode : Swift.Equatable {}
-extension LOInterpreterPodKit.LOAudioInputMode : Swift.Hashable {}
+public struct LOInterpretationType : Swift.Equatable, Swift.Sendable {
+  public let rawValue: Swift.Int
+  public let equityType: Swift.String
+  public let graphName: Swift.String
+  public static let doubleTranslate: LOInterpreterPodKit.LOInterpretationType
+  public static let singTranslate: LOInterpreterPodKit.LOInterpretationType
+  public static func custom(rawValue: Swift.Int, equityType: Swift.String, graphName: Swift.String) -> LOInterpreterPodKit.LOInterpretationType
+  public static func == (a: LOInterpreterPodKit.LOInterpretationType, b: LOInterpreterPodKit.LOInterpretationType) -> Swift.Bool
+}
+public enum LOAudioInputMode {
+  case microphone
+  case ble
+  public static func == (a: LOInterpreterPodKit.LOAudioInputMode, b: LOInterpreterPodKit.LOAudioInputMode) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public struct LOInterpreterConfig {
+  public let audioInputMode: LOInterpreterPodKit.LOAudioInputMode
+  public let userId: Swift.Int
+  public let sourceLanguage: Swift.String
+  public let targetLanguage: Swift.String
+  public let speechLanguage: Swift.String
+  public let single: Swift.Bool?
+  public let type: LOInterpreterPodKit.LOInterpretationType
+  public let timeout: Foundation.TimeInterval
+  public let isMute: Swift.Bool
+  public let domain: Swift.String
+  public let dynamicDomain: Swift.String
+  public let conversationPrefix: Swift.String
+  public let paths: [Swift.String : Any]?
+  public let params: [Swift.String : Any]?
+  public init(audioInputMode: LOInterpreterPodKit.LOAudioInputMode, userId: Swift.Int, sourceLanguage: Swift.String, targetLanguage: Swift.String, speechLanguage: Swift.String, single: Swift.Bool = true, type: LOInterpreterPodKit.LOInterpretationType, timeout: Foundation.TimeInterval = 60 * 60, mute: Swift.Bool = true, conversationPrefix: Swift.String = "", domain: Swift.String, dynamicDomain: Swift.String, paths: [Swift.String : Any]? = nil, params: [Swift.String : Any]? = nil)
+}
+final public class LOInterpreterCore {
+  final public let translationPublisher: Combine.PassthroughSubject<LOInterpreterPodKit.LOInterpreterReciveMessage, Swift.Never>
+  final public let streamingStatePublisher: Combine.PassthroughSubject<LOInterpreterPodKit.LORecordingState, Swift.Never>
+  public init(config: LOInterpreterPodKit.LOInterpreterConfig)
+  final public func start()
+  final public func stop()
+  final public func muteRemoteAudioStream(_ mute: Swift.Bool)
+  @objc deinit
+}
+public enum LORecordingState {
+  case initial
+  case joiningChannel
+  case joined
+  case streaming
+  case streamMessageReceived(LOInterpreterPodKit.LOInterpreterReciveMessage)
+  case failure(LOInterpreterPodKit.LOInterpreterError)
+  case didLeaveChannel
+  case stoppedByBLE(type: Swift.Int, sessionId: Foundation.Data, status: Swift.UInt8)
+}
 extension LOInterpreterPodKit.LOUserOfflineReason : Swift.Equatable {}
 extension LOInterpreterPodKit.LOUserOfflineReason : Swift.Hashable {}
 extension LOInterpreterPodKit.LOUserOfflineReason : Swift.RawRepresentable {}
 extension LOInterpreterPodKit.LOLogLevel : Swift.Hashable {}
 extension LOInterpreterPodKit.LOLogLevel : Swift.RawRepresentable {}
+extension LOInterpreterPodKit.LOAudioInputMode : Swift.Equatable {}
+extension LOInterpreterPodKit.LOAudioInputMode : Swift.Hashable {}
