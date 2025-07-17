@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'LOInterpreterKit'
-  s.version          = '0.1.20'
+  s.version          = '0.1.22'
   s.summary          = 'LOInterpreterKit components'
   s.description      = <<-DESC
   LOInterpreterKit is a real-time interpretation SDK for iOS, enabling two-way voice translation using BLE or built-in mic.
@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.author           = { 'wayne' => 'zhouzhiwei@lian-o.com' }
   s.source           = { :git => 'https://github.com/TOALL-GIT/LOInterpreterKit.git', :tag => s.version.to_s}
   s.ios.deployment_target = '15.1'
-  s.swift_versions = "5.0"
+  s.swift_versions = "5.5"
   s.static_framework = false
 
   s.subspec 'Core' do |core|
@@ -25,7 +25,6 @@ Pod::Spec.new do |s|
 
   s.default_subspec = 'Core'
 
-  s.dependency 'LONetworkKit', '~> 0.1.6'
   s.dependency 'Moya', '~> 15.0'
   s.dependency 'AgoraAudio_iOS', '~> 4.5.2'
   s.dependency 'SQLite.swift'
