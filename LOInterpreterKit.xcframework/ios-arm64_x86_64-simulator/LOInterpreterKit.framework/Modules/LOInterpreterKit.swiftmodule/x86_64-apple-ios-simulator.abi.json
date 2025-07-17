@@ -5,1158 +5,6 @@
     "printedName": "LOInterpreterKit",
     "children": [
       {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "LOInterpreterKit",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "AgoraRtcKit",
-        "printedName": "AgoraRtcKit",
-        "declKind": "Import",
-        "moduleName": "LOInterpreterKit"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "LOInterpreterKit",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "LOLogLevel",
-        "printedName": "LOLogLevel",
-        "children": [
-          {
-            "kind": "Var",
-            "name": "verbose",
-            "printedName": "verbose",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(LOInterpreterKit.LOLogLevel.Type) -> LOInterpreterKit.LOLogLevel",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "LOLogLevel",
-                    "printedName": "LOInterpreterKit.LOLogLevel",
-                    "usr": "s:16LOInterpreterKit10LOLogLevelO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "LOInterpreterKit.LOLogLevel.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "LOLogLevel",
-                        "printedName": "LOInterpreterKit.LOLogLevel",
-                        "usr": "s:16LOInterpreterKit10LOLogLevelO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:16LOInterpreterKit10LOLogLevelO7verboseyA2CmF",
-            "mangledName": "$s16LOInterpreterKit10LOLogLevelO7verboseyA2CmF",
-            "moduleName": "LOInterpreterKit"
-          },
-          {
-            "kind": "Var",
-            "name": "debug",
-            "printedName": "debug",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(LOInterpreterKit.LOLogLevel.Type) -> LOInterpreterKit.LOLogLevel",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "LOLogLevel",
-                    "printedName": "LOInterpreterKit.LOLogLevel",
-                    "usr": "s:16LOInterpreterKit10LOLogLevelO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "LOInterpreterKit.LOLogLevel.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "LOLogLevel",
-                        "printedName": "LOInterpreterKit.LOLogLevel",
-                        "usr": "s:16LOInterpreterKit10LOLogLevelO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:16LOInterpreterKit10LOLogLevelO5debugyA2CmF",
-            "mangledName": "$s16LOInterpreterKit10LOLogLevelO5debugyA2CmF",
-            "moduleName": "LOInterpreterKit"
-          },
-          {
-            "kind": "Var",
-            "name": "info",
-            "printedName": "info",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(LOInterpreterKit.LOLogLevel.Type) -> LOInterpreterKit.LOLogLevel",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "LOLogLevel",
-                    "printedName": "LOInterpreterKit.LOLogLevel",
-                    "usr": "s:16LOInterpreterKit10LOLogLevelO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "LOInterpreterKit.LOLogLevel.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "LOLogLevel",
-                        "printedName": "LOInterpreterKit.LOLogLevel",
-                        "usr": "s:16LOInterpreterKit10LOLogLevelO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:16LOInterpreterKit10LOLogLevelO4infoyA2CmF",
-            "mangledName": "$s16LOInterpreterKit10LOLogLevelO4infoyA2CmF",
-            "moduleName": "LOInterpreterKit"
-          },
-          {
-            "kind": "Var",
-            "name": "warning",
-            "printedName": "warning",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(LOInterpreterKit.LOLogLevel.Type) -> LOInterpreterKit.LOLogLevel",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "LOLogLevel",
-                    "printedName": "LOInterpreterKit.LOLogLevel",
-                    "usr": "s:16LOInterpreterKit10LOLogLevelO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "LOInterpreterKit.LOLogLevel.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "LOLogLevel",
-                        "printedName": "LOInterpreterKit.LOLogLevel",
-                        "usr": "s:16LOInterpreterKit10LOLogLevelO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:16LOInterpreterKit10LOLogLevelO7warningyA2CmF",
-            "mangledName": "$s16LOInterpreterKit10LOLogLevelO7warningyA2CmF",
-            "moduleName": "LOInterpreterKit"
-          },
-          {
-            "kind": "Var",
-            "name": "error",
-            "printedName": "error",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(LOInterpreterKit.LOLogLevel.Type) -> LOInterpreterKit.LOLogLevel",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "LOLogLevel",
-                    "printedName": "LOInterpreterKit.LOLogLevel",
-                    "usr": "s:16LOInterpreterKit10LOLogLevelO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "LOInterpreterKit.LOLogLevel.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "LOLogLevel",
-                        "printedName": "LOInterpreterKit.LOLogLevel",
-                        "usr": "s:16LOInterpreterKit10LOLogLevelO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:16LOInterpreterKit10LOLogLevelO5erroryA2CmF",
-            "mangledName": "$s16LOInterpreterKit10LOLogLevelO5erroryA2CmF",
-            "moduleName": "LOInterpreterKit"
-          },
-          {
-            "kind": "Function",
-            "name": "<",
-            "printedName": "<(_:_:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "LOLogLevel",
-                "printedName": "LOInterpreterKit.LOLogLevel",
-                "usr": "s:16LOInterpreterKit10LOLogLevelO"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "LOLogLevel",
-                "printedName": "LOInterpreterKit.LOLogLevel",
-                "usr": "s:16LOInterpreterKit10LOLogLevelO"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:16LOInterpreterKit10LOLogLevelO1loiySbAC_ACtFZ",
-            "mangledName": "$s16LOInterpreterKit10LOLogLevelO1loiySbAC_ACtFZ",
-            "moduleName": "LOInterpreterKit",
-            "static": true,
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(rawValue:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "LOInterpreterKit.LOLogLevel?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "LOLogLevel",
-                    "printedName": "LOInterpreterKit.LOLogLevel",
-                    "usr": "s:16LOInterpreterKit10LOLogLevelO"
-                  }
-                ],
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Int",
-                "printedName": "Swift.Int",
-                "usr": "s:Si"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:16LOInterpreterKit10LOLogLevelO8rawValueACSgSi_tcfc",
-            "mangledName": "$s16LOInterpreterKit10LOLogLevelO8rawValueACSgSi_tcfc",
-            "moduleName": "LOInterpreterKit",
-            "implicit": true,
-            "init_kind": "Designated"
-          },
-          {
-            "kind": "Var",
-            "name": "rawValue",
-            "printedName": "rawValue",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Int",
-                "printedName": "Swift.Int",
-                "usr": "s:Si"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:16LOInterpreterKit10LOLogLevelO8rawValueSivp",
-            "mangledName": "$s16LOInterpreterKit10LOLogLevelO8rawValueSivp",
-            "moduleName": "LOInterpreterKit",
-            "implicit": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:16LOInterpreterKit10LOLogLevelO8rawValueSivg",
-                "mangledName": "$s16LOInterpreterKit10LOLogLevelO8rawValueSivg",
-                "moduleName": "LOInterpreterKit",
-                "implicit": true,
-                "accessorKind": "get"
-              }
-            ]
-          }
-        ],
-        "declKind": "Enum",
-        "usr": "s:16LOInterpreterKit10LOLogLevelO",
-        "mangledName": "$s16LOInterpreterKit10LOLogLevelO",
-        "moduleName": "LOInterpreterKit",
-        "declAttributes": [
-          "AccessControl"
-        ],
-        "enumRawTypeName": "Int",
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "RawRepresentable",
-            "printedName": "RawRepresentable",
-            "children": [
-              {
-                "kind": "TypeWitness",
-                "name": "RawValue",
-                "printedName": "RawValue",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
-                  }
-                ]
-              }
-            ],
-            "usr": "s:SY",
-            "mangledName": "$sSY"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Comparable",
-            "printedName": "Comparable",
-            "usr": "s:SL",
-            "mangledName": "$sSL"
-          }
-        ]
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "LOInterpreterLogger",
-        "printedName": "LOInterpreterLogger",
-        "children": [
-          {
-            "kind": "Var",
-            "name": "logLevel",
-            "printedName": "logLevel",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "LOLogLevel",
-                "printedName": "LOInterpreterKit.LOLogLevel",
-                "usr": "s:16LOInterpreterKit10LOLogLevelO"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:16LOInterpreterKit0A6LoggerV8logLevelAA05LOLogE0OvpZ",
-            "mangledName": "$s16LOInterpreterKit0A6LoggerV8logLevelAA05LOLogE0OvpZ",
-            "moduleName": "LOInterpreterKit",
-            "static": true,
-            "declAttributes": [
-              "HasInitialValue",
-              "HasStorage",
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "LOLogLevel",
-                    "printedName": "LOInterpreterKit.LOLogLevel",
-                    "usr": "s:16LOInterpreterKit10LOLogLevelO"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:16LOInterpreterKit0A6LoggerV8logLevelAA05LOLogE0OvgZ",
-                "mangledName": "$s16LOInterpreterKit0A6LoggerV8logLevelAA05LOLogE0OvgZ",
-                "moduleName": "LOInterpreterKit",
-                "static": true,
-                "implicit": true,
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "LOLogLevel",
-                    "printedName": "LOInterpreterKit.LOLogLevel",
-                    "usr": "s:16LOInterpreterKit10LOLogLevelO"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:16LOInterpreterKit0A6LoggerV8logLevelAA05LOLogE0OvsZ",
-                "mangledName": "$s16LOInterpreterKit0A6LoggerV8logLevelAA05LOLogE0OvsZ",
-                "moduleName": "LOInterpreterKit",
-                "static": true,
-                "implicit": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:16LOInterpreterKit0A6LoggerV8logLevelAA05LOLogE0OvMZ",
-                "mangledName": "$s16LOInterpreterKit0A6LoggerV8logLevelAA05LOLogE0OvMZ",
-                "moduleName": "LOInterpreterKit",
-                "static": true,
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "prefix",
-            "printedName": "prefix",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:16LOInterpreterKit0A6LoggerV6prefixSSvpZ",
-            "mangledName": "$s16LOInterpreterKit0A6LoggerV6prefixSSvpZ",
-            "moduleName": "LOInterpreterKit",
-            "static": true,
-            "declAttributes": [
-              "HasInitialValue",
-              "HasStorage",
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:16LOInterpreterKit0A6LoggerV6prefixSSvgZ",
-                "mangledName": "$s16LOInterpreterKit0A6LoggerV6prefixSSvgZ",
-                "moduleName": "LOInterpreterKit",
-                "static": true,
-                "implicit": true,
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:16LOInterpreterKit0A6LoggerV6prefixSSvsZ",
-                "mangledName": "$s16LOInterpreterKit0A6LoggerV6prefixSSvsZ",
-                "moduleName": "LOInterpreterKit",
-                "static": true,
-                "implicit": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:16LOInterpreterKit0A6LoggerV6prefixSSvMZ",
-                "mangledName": "$s16LOInterpreterKit0A6LoggerV6prefixSSvMZ",
-                "moduleName": "LOInterpreterKit",
-                "static": true,
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "outputHandler",
-            "printedName": "outputHandler",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "((Swift.String) -> ())?",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "(Swift.String) -> ()",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Void",
-                        "printedName": "()"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ]
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:16LOInterpreterKit0A6LoggerV13outputHandlerySScSgvpZ",
-            "mangledName": "$s16LOInterpreterKit0A6LoggerV13outputHandlerySScSgvpZ",
-            "moduleName": "LOInterpreterKit",
-            "static": true,
-            "declAttributes": [
-              "HasInitialValue",
-              "HasStorage",
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "((Swift.String) -> ())?",
-                    "children": [
-                      {
-                        "kind": "TypeFunc",
-                        "name": "Function",
-                        "printedName": "(Swift.String) -> ()",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Void",
-                            "printedName": "()"
-                          },
-                          {
-                            "kind": "TypeNominal",
-                            "name": "String",
-                            "printedName": "Swift.String",
-                            "usr": "s:SS"
-                          }
-                        ]
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:16LOInterpreterKit0A6LoggerV13outputHandlerySScSgvgZ",
-                "mangledName": "$s16LOInterpreterKit0A6LoggerV13outputHandlerySScSgvgZ",
-                "moduleName": "LOInterpreterKit",
-                "static": true,
-                "implicit": true,
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "((Swift.String) -> ())?",
-                    "children": [
-                      {
-                        "kind": "TypeFunc",
-                        "name": "Function",
-                        "printedName": "(Swift.String) -> ()",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Void",
-                            "printedName": "()"
-                          },
-                          {
-                            "kind": "TypeNominal",
-                            "name": "String",
-                            "printedName": "Swift.String",
-                            "usr": "s:SS"
-                          }
-                        ]
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:16LOInterpreterKit0A6LoggerV13outputHandlerySScSgvsZ",
-                "mangledName": "$s16LOInterpreterKit0A6LoggerV13outputHandlerySScSgvsZ",
-                "moduleName": "LOInterpreterKit",
-                "static": true,
-                "implicit": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:16LOInterpreterKit0A6LoggerV13outputHandlerySScSgvMZ",
-                "mangledName": "$s16LOInterpreterKit0A6LoggerV13outputHandlerySScSgvMZ",
-                "moduleName": "LOInterpreterKit",
-                "static": true,
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Function",
-            "name": "verbose",
-            "printedName": "verbose(_:file:function:line:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "() -> Swift.String",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "typeAttributes": [
-                  "noescape"
-                ]
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "hasDefaultArg": true,
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "hasDefaultArg": true,
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Int",
-                "printedName": "Swift.Int",
-                "hasDefaultArg": true,
-                "usr": "s:Si"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:16LOInterpreterKit0A6LoggerV7verbose_4file8function4lineySSyXK_S2SSitFZ",
-            "mangledName": "$s16LOInterpreterKit0A6LoggerV7verbose_4file8function4lineySSyXK_S2SSitFZ",
-            "moduleName": "LOInterpreterKit",
-            "static": true,
-            "declAttributes": [
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "debug",
-            "printedName": "debug(_:file:function:line:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "() -> Swift.String",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "typeAttributes": [
-                  "noescape"
-                ]
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "hasDefaultArg": true,
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "hasDefaultArg": true,
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Int",
-                "printedName": "Swift.Int",
-                "hasDefaultArg": true,
-                "usr": "s:Si"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:16LOInterpreterKit0A6LoggerV5debug_4file8function4lineySSyXK_S2SSitFZ",
-            "mangledName": "$s16LOInterpreterKit0A6LoggerV5debug_4file8function4lineySSyXK_S2SSitFZ",
-            "moduleName": "LOInterpreterKit",
-            "static": true,
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "info",
-            "printedName": "info(_:file:function:line:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "() -> Swift.String",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "typeAttributes": [
-                  "noescape"
-                ]
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "hasDefaultArg": true,
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "hasDefaultArg": true,
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Int",
-                "printedName": "Swift.Int",
-                "hasDefaultArg": true,
-                "usr": "s:Si"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:16LOInterpreterKit0A6LoggerV4info_4file8function4lineySSyXK_S2SSitFZ",
-            "mangledName": "$s16LOInterpreterKit0A6LoggerV4info_4file8function4lineySSyXK_S2SSitFZ",
-            "moduleName": "LOInterpreterKit",
-            "static": true,
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "warning",
-            "printedName": "warning(_:file:function:line:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "() -> Swift.String",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "typeAttributes": [
-                  "noescape"
-                ]
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "hasDefaultArg": true,
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "hasDefaultArg": true,
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Int",
-                "printedName": "Swift.Int",
-                "hasDefaultArg": true,
-                "usr": "s:Si"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:16LOInterpreterKit0A6LoggerV7warning_4file8function4lineySSyXK_S2SSitFZ",
-            "mangledName": "$s16LOInterpreterKit0A6LoggerV7warning_4file8function4lineySSyXK_S2SSitFZ",
-            "moduleName": "LOInterpreterKit",
-            "static": true,
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "error",
-            "printedName": "error(_:file:function:line:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "() -> Swift.String",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "typeAttributes": [
-                  "noescape"
-                ]
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "hasDefaultArg": true,
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "hasDefaultArg": true,
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Int",
-                "printedName": "Swift.Int",
-                "hasDefaultArg": true,
-                "usr": "s:Si"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:16LOInterpreterKit0A6LoggerV5error_4file8function4lineySSyXK_S2SSitFZ",
-            "mangledName": "$s16LOInterpreterKit0A6LoggerV5error_4file8function4lineySSyXK_S2SSitFZ",
-            "moduleName": "LOInterpreterKit",
-            "static": true,
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          }
-        ],
-        "declKind": "Struct",
-        "usr": "s:16LOInterpreterKit0A6LoggerV",
-        "mangledName": "$s16LOInterpreterKit0A6LoggerV",
-        "moduleName": "LOInterpreterKit",
-        "declAttributes": [
-          "AccessControl"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          }
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Moya",
-        "printedName": "Moya",
-        "declKind": "Import",
-        "moduleName": "LOInterpreterKit",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "LOInterpreterKit",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "SQLite",
-        "printedName": "SQLite",
-        "declKind": "Import",
-        "moduleName": "LOInterpreterKit"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "LOInterpreterKit",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "LOInterpreterKit",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Moya",
-        "printedName": "Moya",
-        "declKind": "Import",
-        "moduleName": "LOInterpreterKit"
-      },
-      {
-        "kind": "Import",
-        "name": "Moya",
-        "printedName": "Moya",
-        "declKind": "Import",
-        "moduleName": "LOInterpreterKit",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "LOInterpreterKit"
-      },
-      {
-        "kind": "Import",
-        "name": "AgoraRtcKit",
-        "printedName": "AgoraRtcKit",
-        "declKind": "Import",
-        "moduleName": "LOInterpreterKit",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
         "kind": "TypeDecl",
         "name": "LOInterpreterReciveMessage",
         "printedName": "LOInterpreterReciveMessage",
@@ -4146,7 +2994,7 @@
         "declKind": "Import",
         "moduleName": "LOInterpreterKit",
         "declAttributes": [
-          "Preconcurrency"
+          "AccessControl"
         ]
       },
       {
@@ -4156,6 +3004,7 @@
         "declKind": "Import",
         "moduleName": "LOInterpreterKit",
         "declAttributes": [
+          "AccessControl",
           "RawDocComment"
         ]
       },
@@ -5847,7 +4696,10 @@
         "name": "SQLite",
         "printedName": "SQLite",
         "declKind": "Import",
-        "moduleName": "LOInterpreterKit"
+        "moduleName": "LOInterpreterKit",
+        "declAttributes": [
+          "AccessControl"
+        ]
       },
       {
         "kind": "TypeDecl",
@@ -7815,263 +6667,1166 @@
         "declAttributes": [
           "RawDocComment"
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LOInterpreterKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AgoraRtcKit",
+        "printedName": "AgoraRtcKit",
+        "declKind": "Import",
+        "moduleName": "LOInterpreterKit"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LOInterpreterKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "LOLogLevel",
+        "printedName": "LOLogLevel",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "verbose",
+            "printedName": "verbose",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(LOInterpreterKit.LOLogLevel.Type) -> LOInterpreterKit.LOLogLevel",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LOLogLevel",
+                    "printedName": "LOInterpreterKit.LOLogLevel",
+                    "usr": "s:16LOInterpreterKit10LOLogLevelO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "LOInterpreterKit.LOLogLevel.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LOLogLevel",
+                        "printedName": "LOInterpreterKit.LOLogLevel",
+                        "usr": "s:16LOInterpreterKit10LOLogLevelO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:16LOInterpreterKit10LOLogLevelO7verboseyA2CmF",
+            "mangledName": "$s16LOInterpreterKit10LOLogLevelO7verboseyA2CmF",
+            "moduleName": "LOInterpreterKit"
+          },
+          {
+            "kind": "Var",
+            "name": "debug",
+            "printedName": "debug",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(LOInterpreterKit.LOLogLevel.Type) -> LOInterpreterKit.LOLogLevel",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LOLogLevel",
+                    "printedName": "LOInterpreterKit.LOLogLevel",
+                    "usr": "s:16LOInterpreterKit10LOLogLevelO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "LOInterpreterKit.LOLogLevel.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LOLogLevel",
+                        "printedName": "LOInterpreterKit.LOLogLevel",
+                        "usr": "s:16LOInterpreterKit10LOLogLevelO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:16LOInterpreterKit10LOLogLevelO5debugyA2CmF",
+            "mangledName": "$s16LOInterpreterKit10LOLogLevelO5debugyA2CmF",
+            "moduleName": "LOInterpreterKit"
+          },
+          {
+            "kind": "Var",
+            "name": "info",
+            "printedName": "info",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(LOInterpreterKit.LOLogLevel.Type) -> LOInterpreterKit.LOLogLevel",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LOLogLevel",
+                    "printedName": "LOInterpreterKit.LOLogLevel",
+                    "usr": "s:16LOInterpreterKit10LOLogLevelO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "LOInterpreterKit.LOLogLevel.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LOLogLevel",
+                        "printedName": "LOInterpreterKit.LOLogLevel",
+                        "usr": "s:16LOInterpreterKit10LOLogLevelO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:16LOInterpreterKit10LOLogLevelO4infoyA2CmF",
+            "mangledName": "$s16LOInterpreterKit10LOLogLevelO4infoyA2CmF",
+            "moduleName": "LOInterpreterKit"
+          },
+          {
+            "kind": "Var",
+            "name": "warning",
+            "printedName": "warning",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(LOInterpreterKit.LOLogLevel.Type) -> LOInterpreterKit.LOLogLevel",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LOLogLevel",
+                    "printedName": "LOInterpreterKit.LOLogLevel",
+                    "usr": "s:16LOInterpreterKit10LOLogLevelO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "LOInterpreterKit.LOLogLevel.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LOLogLevel",
+                        "printedName": "LOInterpreterKit.LOLogLevel",
+                        "usr": "s:16LOInterpreterKit10LOLogLevelO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:16LOInterpreterKit10LOLogLevelO7warningyA2CmF",
+            "mangledName": "$s16LOInterpreterKit10LOLogLevelO7warningyA2CmF",
+            "moduleName": "LOInterpreterKit"
+          },
+          {
+            "kind": "Var",
+            "name": "error",
+            "printedName": "error",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(LOInterpreterKit.LOLogLevel.Type) -> LOInterpreterKit.LOLogLevel",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LOLogLevel",
+                    "printedName": "LOInterpreterKit.LOLogLevel",
+                    "usr": "s:16LOInterpreterKit10LOLogLevelO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "LOInterpreterKit.LOLogLevel.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LOLogLevel",
+                        "printedName": "LOInterpreterKit.LOLogLevel",
+                        "usr": "s:16LOInterpreterKit10LOLogLevelO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:16LOInterpreterKit10LOLogLevelO5erroryA2CmF",
+            "mangledName": "$s16LOInterpreterKit10LOLogLevelO5erroryA2CmF",
+            "moduleName": "LOInterpreterKit"
+          },
+          {
+            "kind": "Function",
+            "name": "<",
+            "printedName": "<(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "LOLogLevel",
+                "printedName": "LOInterpreterKit.LOLogLevel",
+                "usr": "s:16LOInterpreterKit10LOLogLevelO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "LOLogLevel",
+                "printedName": "LOInterpreterKit.LOLogLevel",
+                "usr": "s:16LOInterpreterKit10LOLogLevelO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16LOInterpreterKit10LOLogLevelO1loiySbAC_ACtFZ",
+            "mangledName": "$s16LOInterpreterKit10LOLogLevelO1loiySbAC_ACtFZ",
+            "moduleName": "LOInterpreterKit",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "LOInterpreterKit.LOLogLevel?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LOLogLevel",
+                    "printedName": "LOInterpreterKit.LOLogLevel",
+                    "usr": "s:16LOInterpreterKit10LOLogLevelO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:16LOInterpreterKit10LOLogLevelO8rawValueACSgSi_tcfc",
+            "mangledName": "$s16LOInterpreterKit10LOLogLevelO8rawValueACSgSi_tcfc",
+            "moduleName": "LOInterpreterKit",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16LOInterpreterKit10LOLogLevelO8rawValueSivp",
+            "mangledName": "$s16LOInterpreterKit10LOLogLevelO8rawValueSivp",
+            "moduleName": "LOInterpreterKit",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16LOInterpreterKit10LOLogLevelO8rawValueSivg",
+                "mangledName": "$s16LOInterpreterKit10LOLogLevelO8rawValueSivg",
+                "moduleName": "LOInterpreterKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:16LOInterpreterKit10LOLogLevelO",
+        "mangledName": "$s16LOInterpreterKit10LOLogLevelO",
+        "moduleName": "LOInterpreterKit",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "enumRawTypeName": "Int",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Comparable",
+            "printedName": "Comparable",
+            "usr": "s:SL",
+            "mangledName": "$sSL"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "LOInterpreterLogger",
+        "printedName": "LOInterpreterLogger",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "logLevel",
+            "printedName": "logLevel",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "LOLogLevel",
+                "printedName": "LOInterpreterKit.LOLogLevel",
+                "usr": "s:16LOInterpreterKit10LOLogLevelO"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16LOInterpreterKit0A6LoggerV8logLevelAA05LOLogE0OvpZ",
+            "mangledName": "$s16LOInterpreterKit0A6LoggerV8logLevelAA05LOLogE0OvpZ",
+            "moduleName": "LOInterpreterKit",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LOLogLevel",
+                    "printedName": "LOInterpreterKit.LOLogLevel",
+                    "usr": "s:16LOInterpreterKit10LOLogLevelO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16LOInterpreterKit0A6LoggerV8logLevelAA05LOLogE0OvgZ",
+                "mangledName": "$s16LOInterpreterKit0A6LoggerV8logLevelAA05LOLogE0OvgZ",
+                "moduleName": "LOInterpreterKit",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LOLogLevel",
+                    "printedName": "LOInterpreterKit.LOLogLevel",
+                    "usr": "s:16LOInterpreterKit10LOLogLevelO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16LOInterpreterKit0A6LoggerV8logLevelAA05LOLogE0OvsZ",
+                "mangledName": "$s16LOInterpreterKit0A6LoggerV8logLevelAA05LOLogE0OvsZ",
+                "moduleName": "LOInterpreterKit",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16LOInterpreterKit0A6LoggerV8logLevelAA05LOLogE0OvMZ",
+                "mangledName": "$s16LOInterpreterKit0A6LoggerV8logLevelAA05LOLogE0OvMZ",
+                "moduleName": "LOInterpreterKit",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "prefix",
+            "printedName": "prefix",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16LOInterpreterKit0A6LoggerV6prefixSSvpZ",
+            "mangledName": "$s16LOInterpreterKit0A6LoggerV6prefixSSvpZ",
+            "moduleName": "LOInterpreterKit",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16LOInterpreterKit0A6LoggerV6prefixSSvgZ",
+                "mangledName": "$s16LOInterpreterKit0A6LoggerV6prefixSSvgZ",
+                "moduleName": "LOInterpreterKit",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16LOInterpreterKit0A6LoggerV6prefixSSvsZ",
+                "mangledName": "$s16LOInterpreterKit0A6LoggerV6prefixSSvsZ",
+                "moduleName": "LOInterpreterKit",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16LOInterpreterKit0A6LoggerV6prefixSSvMZ",
+                "mangledName": "$s16LOInterpreterKit0A6LoggerV6prefixSSvMZ",
+                "moduleName": "LOInterpreterKit",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "outputHandler",
+            "printedName": "outputHandler",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Swift.String) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16LOInterpreterKit0A6LoggerV13outputHandlerySScSgvpZ",
+            "mangledName": "$s16LOInterpreterKit0A6LoggerV13outputHandlerySScSgvpZ",
+            "moduleName": "LOInterpreterKit",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((Swift.String) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(Swift.String) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16LOInterpreterKit0A6LoggerV13outputHandlerySScSgvgZ",
+                "mangledName": "$s16LOInterpreterKit0A6LoggerV13outputHandlerySScSgvgZ",
+                "moduleName": "LOInterpreterKit",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((Swift.String) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(Swift.String) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16LOInterpreterKit0A6LoggerV13outputHandlerySScSgvsZ",
+                "mangledName": "$s16LOInterpreterKit0A6LoggerV13outputHandlerySScSgvsZ",
+                "moduleName": "LOInterpreterKit",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16LOInterpreterKit0A6LoggerV13outputHandlerySScSgvMZ",
+                "mangledName": "$s16LOInterpreterKit0A6LoggerV13outputHandlerySScSgvMZ",
+                "moduleName": "LOInterpreterKit",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "verbose",
+            "printedName": "verbose(_:file:function:line:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "() -> Swift.String",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "typeAttributes": [
+                  "noescape"
+                ]
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "hasDefaultArg": true,
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16LOInterpreterKit0A6LoggerV7verbose_4file8function4lineySSyXK_S2SSitFZ",
+            "mangledName": "$s16LOInterpreterKit0A6LoggerV7verbose_4file8function4lineySSyXK_S2SSitFZ",
+            "moduleName": "LOInterpreterKit",
+            "static": true,
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "debug",
+            "printedName": "debug(_:file:function:line:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "() -> Swift.String",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "typeAttributes": [
+                  "noescape"
+                ]
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "hasDefaultArg": true,
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16LOInterpreterKit0A6LoggerV5debug_4file8function4lineySSyXK_S2SSitFZ",
+            "mangledName": "$s16LOInterpreterKit0A6LoggerV5debug_4file8function4lineySSyXK_S2SSitFZ",
+            "moduleName": "LOInterpreterKit",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "info",
+            "printedName": "info(_:file:function:line:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "() -> Swift.String",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "typeAttributes": [
+                  "noescape"
+                ]
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "hasDefaultArg": true,
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16LOInterpreterKit0A6LoggerV4info_4file8function4lineySSyXK_S2SSitFZ",
+            "mangledName": "$s16LOInterpreterKit0A6LoggerV4info_4file8function4lineySSyXK_S2SSitFZ",
+            "moduleName": "LOInterpreterKit",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "warning",
+            "printedName": "warning(_:file:function:line:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "() -> Swift.String",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "typeAttributes": [
+                  "noescape"
+                ]
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "hasDefaultArg": true,
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16LOInterpreterKit0A6LoggerV7warning_4file8function4lineySSyXK_S2SSitFZ",
+            "mangledName": "$s16LOInterpreterKit0A6LoggerV7warning_4file8function4lineySSyXK_S2SSitFZ",
+            "moduleName": "LOInterpreterKit",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "error",
+            "printedName": "error(_:file:function:line:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "() -> Swift.String",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "typeAttributes": [
+                  "noescape"
+                ]
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "hasDefaultArg": true,
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16LOInterpreterKit0A6LoggerV5error_4file8function4lineySSyXK_S2SSitFZ",
+            "mangledName": "$s16LOInterpreterKit0A6LoggerV5error_4file8function4lineySSyXK_S2SSitFZ",
+            "moduleName": "LOInterpreterKit",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:16LOInterpreterKit0A6LoggerV",
+        "mangledName": "$s16LOInterpreterKit0A6LoggerV",
+        "moduleName": "LOInterpreterKit",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Moya",
+        "printedName": "Moya",
+        "declKind": "Import",
+        "moduleName": "LOInterpreterKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LOInterpreterKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SQLite",
+        "printedName": "SQLite",
+        "declKind": "Import",
+        "moduleName": "LOInterpreterKit",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LOInterpreterKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LOInterpreterKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Moya",
+        "printedName": "Moya",
+        "declKind": "Import",
+        "moduleName": "LOInterpreterKit"
+      },
+      {
+        "kind": "Import",
+        "name": "Moya",
+        "printedName": "Moya",
+        "declKind": "Import",
+        "moduleName": "LOInterpreterKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LOInterpreterKit"
+      },
+      {
+        "kind": "Import",
+        "name": "AgoraRtcKit",
+        "printedName": "AgoraRtcKit",
+        "declKind": "Import",
+        "moduleName": "LOInterpreterKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
       }
     ],
     "json_format_version": 8
   },
   "ConstValues": [
-    {
-      "filePath": "\/Users\/wayne\/Desktop\/project\/LOInterpreterKit\/LOInterpreterKit\/Sources\/Core\/LOAgoraGlobalSettings.swift",
-      "kind": "StringLiteral",
-      "offset": 184,
-      "length": 8,
-      "value": "\"GLOBAL\""
-    },
-    {
-      "filePath": "\/Users\/wayne\/Desktop\/project\/LOInterpreterKit\/LOInterpreterKit\/Sources\/Core\/LOAgoraGlobalSettings.swift",
-      "kind": "StringLiteral",
-      "offset": 226,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/wayne\/Desktop\/project\/LOInterpreterKit\/LOInterpreterKit\/Sources\/Core\/LOAgoraGlobalSettings.swift",
-      "kind": "BooleanLiteral",
-      "offset": 273,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/wayne\/Desktop\/project\/LOInterpreterKit\/LOInterpreterKit\/Sources\/Core\/LOAgoraGlobalSettings.swift",
-      "kind": "StringLiteral",
-      "offset": 325,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/wayne\/Desktop\/project\/LOInterpreterKit\/LOInterpreterKit\/Sources\/Core\/LOAgoraGlobalSettings.swift",
-      "kind": "IntegerLiteral",
-      "offset": 369,
-      "length": 2,
-      "value": "80"
-    },
-    {
-      "filePath": "\/Users\/wayne\/Desktop\/project\/LOInterpreterKit\/LOInterpreterKit\/Sources\/Core\/LOAgoraGlobalSettings.swift",
-      "kind": "StringLiteral",
-      "offset": 416,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/wayne\/Desktop\/project\/LOInterpreterKit\/LOInterpreterKit\/Sources\/Core\/LOAgoraGlobalSettings.swift",
-      "kind": "BooleanLiteral",
-      "offset": 456,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/wayne\/Desktop\/project\/LOInterpreterKit\/LOInterpreterKit\/Sources\/Core\/LOInterpreterLogger.swift",
-      "kind": "IntegerLiteral",
-      "offset": 164,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/wayne\/Desktop\/project\/LOInterpreterKit\/LOInterpreterKit\/Sources\/Core\/LOInterpreterLogger.swift",
-      "kind": "IntegerLiteral",
-      "offset": 175,
-      "length": 5,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/wayne\/Desktop\/project\/LOInterpreterKit\/LOInterpreterKit\/Sources\/Core\/LOInterpreterLogger.swift",
-      "kind": "IntegerLiteral",
-      "offset": 190,
-      "length": 4,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/wayne\/Desktop\/project\/LOInterpreterKit\/LOInterpreterKit\/Sources\/Core\/LOInterpreterLogger.swift",
-      "kind": "IntegerLiteral",
-      "offset": 204,
-      "length": 7,
-      "value": "3"
-    },
-    {
-      "filePath": "\/Users\/wayne\/Desktop\/project\/LOInterpreterKit\/LOInterpreterKit\/Sources\/Core\/LOInterpreterLogger.swift",
-      "kind": "IntegerLiteral",
-      "offset": 221,
-      "length": 5,
-      "value": "4"
-    },
-    {
-      "filePath": "\/Users\/wayne\/Desktop\/project\/LOInterpreterKit\/LOInterpreterKit\/Sources\/Core\/LOInterpreterLogger.swift",
-      "kind": "StringLiteral",
-      "offset": 871,
-      "length": 18,
-      "value": "\"LOInterpreterKit\""
-    },
-    {
-      "filePath": "\/Users\/wayne\/Desktop\/project\/LOInterpreterKit\/LOInterpreterKit\/Sources\/Core\/LOAgoraTokenManager.swift",
-      "kind": "Array",
-      "offset": 3509,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/wayne\/Desktop\/project\/LOInterpreterKit\/LOInterpreterKit\/Sources\/Core\/LOInterpreterMigrationManager.swift",
-      "kind": "StringLiteral",
-      "offset": 364,
-      "length": 19,
-      "value": "\"schema_migrations\""
-    },
-    {
-      "filePath": "\/Users\/wayne\/Desktop\/project\/LOInterpreterKit\/LOInterpreterKit\/Sources\/Core\/LOInterpreterMigrationManager.swift",
-      "kind": "StringLiteral",
-      "offset": 432,
-      "length": 9,
-      "value": "\"version\""
-    },
-    {
-      "filePath": "\/Users\/wayne\/Desktop\/project\/LOInterpreterKit\/LOInterpreterKit\/Sources\/Core\/LOInterpreterMigrationManager.swift",
-      "kind": "Array",
-      "offset": 946,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/wayne\/Desktop\/project\/LOInterpreterKit\/LOInterpreterKit\/Sources\/Core\/LOInterpreterMigrationManager.swift",
-      "kind": "Array",
-      "offset": 1498,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/wayne\/Desktop\/project\/LOInterpreterKit\/LOInterpreterKit\/Sources\/Core\/LOInterpreterMigrationManager.swift",
-      "kind": "Array",
-      "offset": 2080,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/wayne\/Desktop\/project\/LOInterpreterKit\/LOInterpreterKit\/Sources\/Core\/LOInterpreterMigrationManager.swift",
-      "kind": "StringLiteral",
-      "offset": 7892,
-      "length": 30,
-      "value": "\"^(\\d+)_?([\\w\\s-]*)\\.sql$\""
-    },
-    {
-      "filePath": "\/Users\/wayne\/Desktop\/project\/LOInterpreterKit\/LOInterpreterKit\/Sources\/Core\/LOInterpreterNetWork.swift",
-      "kind": "IntegerLiteral",
-      "offset": 574,
-      "length": 4,
-      "value": "5001"
-    },
-    {
-      "filePath": "\/Users\/wayne\/Desktop\/project\/LOInterpreterKit\/LOInterpreterKit\/Sources\/Core\/LOInterpreterNetWork.swift",
-      "kind": "IntegerLiteral",
-      "offset": 604,
-      "length": 4,
-      "value": "5002"
-    },
-    {
-      "filePath": "\/Users\/wayne\/Desktop\/project\/LOInterpreterKit\/LOInterpreterKit\/Sources\/Core\/LOInterpreterNetWork.swift",
-      "kind": "IntegerLiteral",
-      "offset": 634,
-      "length": 4,
-      "value": "5003"
-    },
-    {
-      "filePath": "\/Users\/wayne\/Desktop\/project\/LOInterpreterKit\/LOInterpreterKit\/Sources\/Core\/LOInterpreterNetWork.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1041,
-      "length": 3,
-      "value": "200"
-    },
-    {
-      "filePath": "\/Users\/wayne\/Desktop\/project\/LOInterpreterKit\/LOInterpreterKit\/Sources\/Core\/LOInterpreterNetWork.swift",
-      "kind": "Array",
-      "offset": 2486,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/wayne\/Desktop\/project\/LOInterpreterKit\/LOInterpreterKit\/Sources\/Core\/LOInterpreterNetWork.swift",
-      "kind": "Array",
-      "offset": 4404,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/wayne\/Desktop\/project\/LOInterpreterKit\/LOInterpreterKit\/Sources\/Core\/LOInterpreterAudioStream.swift",
-      "kind": "IntegerLiteral",
-      "offset": 619,
-      "length": 1,
-      "value": "5"
-    },
-    {
-      "filePath": "\/Users\/wayne\/Desktop\/project\/LOInterpreterKit\/LOInterpreterKit\/Sources\/Core\/LOInterpreterAudioStream.swift",
-      "kind": "BooleanLiteral",
-      "offset": 757,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/wayne\/Desktop\/project\/LOInterpreterKit\/LOInterpreterKit\/Sources\/Core\/LOInterpreterAudioStream.swift",
-      "kind": "BooleanLiteral",
-      "offset": 804,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/wayne\/Desktop\/project\/LOInterpreterKit\/LOInterpreterKit\/Sources\/Core\/LOInterpreterAudioStream.swift",
-      "kind": "IntegerLiteral",
-      "offset": 941,
-      "length": 5,
-      "value": "16000"
-    },
-    {
-      "filePath": "\/Users\/wayne\/Desktop\/project\/LOInterpreterKit\/LOInterpreterKit\/Sources\/Core\/LOInterpreterAudioStream.swift",
-      "kind": "IntegerLiteral",
-      "offset": 965,
-      "length": 4,
-      "value": "1024"
-    },
-    {
-      "filePath": "\/Users\/wayne\/Desktop\/project\/LOInterpreterKit\/LOInterpreterKit\/Sources\/Core\/LOInterpreterAudioStream.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1002,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/wayne\/Desktop\/project\/LOInterpreterKit\/LOInterpreterKit\/Sources\/Core\/LOInterpreterAudioStream.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1032,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/wayne\/Desktop\/project\/LOInterpreterKit\/LOInterpreterKit\/Sources\/Core\/LOInterpreterAudioStream.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1089,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/wayne\/Desktop\/project\/LOInterpreterKit\/LOInterpreterKit\/Sources\/Core\/LOInterpreterAudioStream.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1165,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/wayne\/Desktop\/project\/LOInterpreterKit\/LOInterpreterKit\/Sources\/Core\/LOInterpreterAudioStream.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1409,
-      "length": 2,
-      "value": "-1"
-    },
     {
       "filePath": "\/Users\/wayne\/Desktop\/project\/LOInterpreterKit\/LOInterpreterKit\/Sources\/Core\/LOInterpreterReciveMessage.swift",
       "kind": "StringLiteral",
@@ -8257,56 +8012,56 @@
     {
       "filePath": "\/Users\/wayne\/Desktop\/project\/LOInterpreterKit\/LOInterpreterKit\/Sources\/Core\/LOInterpreterDatabase.swift",
       "kind": "IntegerLiteral",
-      "offset": 207,
+      "offset": 200,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/wayne\/Desktop\/project\/LOInterpreterKit\/LOInterpreterKit\/Sources\/Core\/LOInterpreterDatabase.swift",
       "kind": "StringLiteral",
-      "offset": 587,
+      "offset": 580,
       "length": 38,
       "value": "\"com.lian-o.interpreter.databaseQueue\""
     },
     {
       "filePath": "\/Users\/wayne\/Desktop\/project\/LOInterpreterKit\/LOInterpreterKit\/Sources\/Core\/LOInterpreterDBManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 2897,
+      "offset": 2906,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/wayne\/Desktop\/project\/LOInterpreterKit\/LOInterpreterKit\/Sources\/Core\/LOInterpreterDBManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 4098,
+      "offset": 4107,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/wayne\/Desktop\/project\/LOInterpreterKit\/LOInterpreterKit\/Sources\/Core\/LOInterpreterDBManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 5205,
+      "offset": 5214,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/wayne\/Desktop\/project\/LOInterpreterKit\/LOInterpreterKit\/Sources\/Core\/LOInterpreterDetailDBManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 532,
+      "offset": 541,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/wayne\/Desktop\/project\/LOInterpreterKit\/LOInterpreterKit\/Sources\/Core\/LOInterpreterDetailDBManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 7538,
+      "offset": 7547,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/wayne\/Desktop\/project\/LOInterpreterKit\/LOInterpreterKit\/Sources\/Core\/LOInterpreterDetailDBManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 12256,
+      "offset": 12265,
       "length": 2,
       "value": "-1"
     },
@@ -8337,6 +8092,258 @@
       "offset": 586,
       "length": 6,
       "value": "3"
+    },
+    {
+      "filePath": "\/Users\/wayne\/Desktop\/project\/LOInterpreterKit\/LOInterpreterKit\/Sources\/Core\/LOAgoraGlobalSettings.swift",
+      "kind": "StringLiteral",
+      "offset": 184,
+      "length": 8,
+      "value": "\"GLOBAL\""
+    },
+    {
+      "filePath": "\/Users\/wayne\/Desktop\/project\/LOInterpreterKit\/LOInterpreterKit\/Sources\/Core\/LOAgoraGlobalSettings.swift",
+      "kind": "StringLiteral",
+      "offset": 226,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/wayne\/Desktop\/project\/LOInterpreterKit\/LOInterpreterKit\/Sources\/Core\/LOAgoraGlobalSettings.swift",
+      "kind": "BooleanLiteral",
+      "offset": 273,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/wayne\/Desktop\/project\/LOInterpreterKit\/LOInterpreterKit\/Sources\/Core\/LOAgoraGlobalSettings.swift",
+      "kind": "StringLiteral",
+      "offset": 325,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/wayne\/Desktop\/project\/LOInterpreterKit\/LOInterpreterKit\/Sources\/Core\/LOAgoraGlobalSettings.swift",
+      "kind": "IntegerLiteral",
+      "offset": 369,
+      "length": 2,
+      "value": "80"
+    },
+    {
+      "filePath": "\/Users\/wayne\/Desktop\/project\/LOInterpreterKit\/LOInterpreterKit\/Sources\/Core\/LOAgoraGlobalSettings.swift",
+      "kind": "StringLiteral",
+      "offset": 416,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/wayne\/Desktop\/project\/LOInterpreterKit\/LOInterpreterKit\/Sources\/Core\/LOAgoraGlobalSettings.swift",
+      "kind": "BooleanLiteral",
+      "offset": 456,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/wayne\/Desktop\/project\/LOInterpreterKit\/LOInterpreterKit\/Sources\/Core\/LOInterpreterLogger.swift",
+      "kind": "IntegerLiteral",
+      "offset": 164,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/wayne\/Desktop\/project\/LOInterpreterKit\/LOInterpreterKit\/Sources\/Core\/LOInterpreterLogger.swift",
+      "kind": "IntegerLiteral",
+      "offset": 175,
+      "length": 5,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/wayne\/Desktop\/project\/LOInterpreterKit\/LOInterpreterKit\/Sources\/Core\/LOInterpreterLogger.swift",
+      "kind": "IntegerLiteral",
+      "offset": 190,
+      "length": 4,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/wayne\/Desktop\/project\/LOInterpreterKit\/LOInterpreterKit\/Sources\/Core\/LOInterpreterLogger.swift",
+      "kind": "IntegerLiteral",
+      "offset": 204,
+      "length": 7,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/wayne\/Desktop\/project\/LOInterpreterKit\/LOInterpreterKit\/Sources\/Core\/LOInterpreterLogger.swift",
+      "kind": "IntegerLiteral",
+      "offset": 221,
+      "length": 5,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/wayne\/Desktop\/project\/LOInterpreterKit\/LOInterpreterKit\/Sources\/Core\/LOInterpreterLogger.swift",
+      "kind": "StringLiteral",
+      "offset": 871,
+      "length": 18,
+      "value": "\"LOInterpreterKit\""
+    },
+    {
+      "filePath": "\/Users\/wayne\/Desktop\/project\/LOInterpreterKit\/LOInterpreterKit\/Sources\/Core\/LOAgoraTokenManager.swift",
+      "kind": "Array",
+      "offset": 3509,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/wayne\/Desktop\/project\/LOInterpreterKit\/LOInterpreterKit\/Sources\/Core\/LOInterpreterMigrationManager.swift",
+      "kind": "StringLiteral",
+      "offset": 373,
+      "length": 19,
+      "value": "\"schema_migrations\""
+    },
+    {
+      "filePath": "\/Users\/wayne\/Desktop\/project\/LOInterpreterKit\/LOInterpreterKit\/Sources\/Core\/LOInterpreterMigrationManager.swift",
+      "kind": "StringLiteral",
+      "offset": 441,
+      "length": 9,
+      "value": "\"version\""
+    },
+    {
+      "filePath": "\/Users\/wayne\/Desktop\/project\/LOInterpreterKit\/LOInterpreterKit\/Sources\/Core\/LOInterpreterMigrationManager.swift",
+      "kind": "Array",
+      "offset": 955,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/wayne\/Desktop\/project\/LOInterpreterKit\/LOInterpreterKit\/Sources\/Core\/LOInterpreterMigrationManager.swift",
+      "kind": "Array",
+      "offset": 1507,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/wayne\/Desktop\/project\/LOInterpreterKit\/LOInterpreterKit\/Sources\/Core\/LOInterpreterMigrationManager.swift",
+      "kind": "Array",
+      "offset": 2089,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/wayne\/Desktop\/project\/LOInterpreterKit\/LOInterpreterKit\/Sources\/Core\/LOInterpreterMigrationManager.swift",
+      "kind": "StringLiteral",
+      "offset": 7901,
+      "length": 30,
+      "value": "\"^(\\d+)_?([\\w\\s-]*)\\.sql$\""
+    },
+    {
+      "filePath": "\/Users\/wayne\/Desktop\/project\/LOInterpreterKit\/LOInterpreterKit\/Sources\/Core\/LOInterpreterNetWork.swift",
+      "kind": "IntegerLiteral",
+      "offset": 574,
+      "length": 4,
+      "value": "5001"
+    },
+    {
+      "filePath": "\/Users\/wayne\/Desktop\/project\/LOInterpreterKit\/LOInterpreterKit\/Sources\/Core\/LOInterpreterNetWork.swift",
+      "kind": "IntegerLiteral",
+      "offset": 604,
+      "length": 4,
+      "value": "5002"
+    },
+    {
+      "filePath": "\/Users\/wayne\/Desktop\/project\/LOInterpreterKit\/LOInterpreterKit\/Sources\/Core\/LOInterpreterNetWork.swift",
+      "kind": "IntegerLiteral",
+      "offset": 634,
+      "length": 4,
+      "value": "5003"
+    },
+    {
+      "filePath": "\/Users\/wayne\/Desktop\/project\/LOInterpreterKit\/LOInterpreterKit\/Sources\/Core\/LOInterpreterNetWork.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1041,
+      "length": 3,
+      "value": "200"
+    },
+    {
+      "filePath": "\/Users\/wayne\/Desktop\/project\/LOInterpreterKit\/LOInterpreterKit\/Sources\/Core\/LOInterpreterNetWork.swift",
+      "kind": "Array",
+      "offset": 2486,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/wayne\/Desktop\/project\/LOInterpreterKit\/LOInterpreterKit\/Sources\/Core\/LOInterpreterNetWork.swift",
+      "kind": "Array",
+      "offset": 4404,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/wayne\/Desktop\/project\/LOInterpreterKit\/LOInterpreterKit\/Sources\/Core\/LOInterpreterAudioStream.swift",
+      "kind": "IntegerLiteral",
+      "offset": 619,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/wayne\/Desktop\/project\/LOInterpreterKit\/LOInterpreterKit\/Sources\/Core\/LOInterpreterAudioStream.swift",
+      "kind": "BooleanLiteral",
+      "offset": 757,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/wayne\/Desktop\/project\/LOInterpreterKit\/LOInterpreterKit\/Sources\/Core\/LOInterpreterAudioStream.swift",
+      "kind": "BooleanLiteral",
+      "offset": 804,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/wayne\/Desktop\/project\/LOInterpreterKit\/LOInterpreterKit\/Sources\/Core\/LOInterpreterAudioStream.swift",
+      "kind": "IntegerLiteral",
+      "offset": 941,
+      "length": 5,
+      "value": "16000"
+    },
+    {
+      "filePath": "\/Users\/wayne\/Desktop\/project\/LOInterpreterKit\/LOInterpreterKit\/Sources\/Core\/LOInterpreterAudioStream.swift",
+      "kind": "IntegerLiteral",
+      "offset": 965,
+      "length": 4,
+      "value": "1024"
+    },
+    {
+      "filePath": "\/Users\/wayne\/Desktop\/project\/LOInterpreterKit\/LOInterpreterKit\/Sources\/Core\/LOInterpreterAudioStream.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1002,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/wayne\/Desktop\/project\/LOInterpreterKit\/LOInterpreterKit\/Sources\/Core\/LOInterpreterAudioStream.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1032,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/wayne\/Desktop\/project\/LOInterpreterKit\/LOInterpreterKit\/Sources\/Core\/LOInterpreterAudioStream.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1089,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/wayne\/Desktop\/project\/LOInterpreterKit\/LOInterpreterKit\/Sources\/Core\/LOInterpreterAudioStream.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1165,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/wayne\/Desktop\/project\/LOInterpreterKit\/LOInterpreterKit\/Sources\/Core\/LOInterpreterAudioStream.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1409,
+      "length": 2,
+      "value": "-1"
     }
   ]
 }
