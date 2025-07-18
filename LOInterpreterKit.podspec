@@ -11,14 +11,13 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/TOALL-GIT/LOInterpreterKit.git', :tag => s.version.to_s}
   s.ios.deployment_target = '15.1'
   s.swift_versions = "5.5"
-  s.static_framework = false
 
   s.subspec 'Core' do |core|
-    core.vendored_frameworks = 'LOInterpreterKit.xcframework'
+    core.vendored_frameworks = 'LOInterpreterKit.framework'
   end
 
   s.subspec 'WithPod' do |withpod|
-    withpod.vendored_frameworks = 'LOInterpreterPodKit.xcframework'
+    withpod.vendored_frameworks = 'LOInterpreterPodKit.framework'
     withpod.dependency 'LOBleKit'
     withpod.dependency 'LOLibopus'
   end
