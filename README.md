@@ -44,7 +44,7 @@ let config = LOInterpreterConfig(
 ### <font style="color:rgb(0, 0, 0);">参数字段说明</font>
 | <font style="color:rgb(0, 0, 0);">字段名</font> | <font style="color:rgb(0, 0, 0);">类型</font> | <font style="color:rgb(0, 0, 0);">说明</font> |
 | --- | --- | --- |
-| `<font style="color:rgb(0, 0, 0);">audioInputMode</font>` | `<font style="color:rgb(0, 0, 0);">LOAudioInputMode</font>` | <font style="color:rgb(0, 0, 0);">音频输入源，支持</font><font style="color:rgb(0, 0, 0);"> </font>`<font style="color:rgb(0, 0, 0);">.microphone</font>`<br/><font style="color:rgb(0, 0, 0);">（麦克风）或</font><font style="color:rgb(0, 0, 0);"> </font>`<font style="color:rgb(0, 0, 0);">.ble</font>`<br/><font style="color:rgb(0, 0, 0);">（蓝牙）</font> |
+| <font style="color:rgb(0, 0, 0);">audioInputMode</font> | <font style="color:rgb(0, 0, 0);">LOAudioInputMode</font> | <font style="color:rgb(0, 0, 0);">音频输入源，支持</font><font style="color:rgb(0, 0, 0);"> </font>`<font style="color:rgb(0, 0, 0);">.microphone</font>`<br/><font style="color:rgb(0, 0, 0);">（麦克风）或</font><font style="color:rgb(0, 0, 0);"> </font>`<font style="color:rgb(0, 0, 0);">.ble</font>`<br/><font style="color:rgb(0, 0, 0);">（蓝牙）</font> |
 | `<font style="color:rgb(0, 0, 0);">userId</font>` | `<font style="color:rgb(0, 0, 0);">Int</font>` | <font style="color:rgb(0, 0, 0);">用户唯一标识，用于声网频道识别</font> |
 | `<font style="color:rgb(0, 0, 0);">sourceLanguage</font>` | `<font style="color:rgb(0, 0, 0);">String</font>` | <font style="color:rgb(0, 0, 0);">源语言代码（如 "zh" 表示中文）</font> |
 | `<font style="color:rgb(0, 0, 0);">targetLanguage</font>` | `<font style="color:rgb(0, 0, 0);">String</font>` | <font style="color:rgb(0, 0, 0);">目标语言代码（如 "en" 表示英文）</font> |
