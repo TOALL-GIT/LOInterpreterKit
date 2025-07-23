@@ -13,10 +13,22 @@
 ---
 
 ## 安装方式
-目前仅支持通过 CocoaPods 方式集成：
+
+### 支持通过 CocoaPods 方式集成：
 
 ```ruby
-pod 'LOInterpreterKit', :git => 'https://your.repo.url/LOInterpreterKit.git'
+pod 'LOInterpreterKit', :git => 'https://github.com/TOALL-GIT/LOInterpreterKit.git', :tag => '0.1.28'
+```
+
+### 支持通过 SPM 方式集成：
+
+To install the Agora Swift Video SDK, follow these steps:
+
+Open your Xcode project.
+Go to File > Swift Packages > Add Package Dependency.
+Paste the following URL of this repository:
+```swift
+https://github.com/TOALL-GIT/LOInterpreterKit.git
 ```
 
 ---
@@ -49,7 +61,7 @@ let config = LOInterpreterConfig(
 | <font style="color:rgb(0, 0, 0);">sourceLanguage</font> | <font style="color:rgb(0, 0, 0);">String</font> | <font style="color:rgb(0, 0, 0);">源语言代码（如 "zh" 表示中文）</font> |
 | <font style="color:rgb(0, 0, 0);">targetLanguage</font> | <font style="color:rgb(0, 0, 0);">String</font> | <font style="color:rgb(0, 0, 0);">目标语言代码（如 "en" 表示英文）</font> |
 | <font style="color:rgb(0, 0, 0);">speechLanguage</font> | <font style="color:rgb(0, 0, 0);">String</font> | <font style="color:rgb(0, 0, 0);">语音合成（TTS）语言代码，用于语音播放</font> |
-| <font style="color:rgb(0, 0, 0);">single</font> | <font style="color:rgb(0, 0, 0);">Bool?</font>` | <font style="color:rgb(0, 0, 0);">是否单轮翻译模式，默认</font><font style="color:rgb(0, 0, 0);"> </font><font style="color:rgb(0, 0, 0);">true</font><br/><font style="color:rgb(0, 0, 0);">，设置为</font><font style="color:rgb(0, 0, 0);"> </font><font style="color:rgb(0, 0, 0);">false</font><br/><font style="color:rgb(0, 0, 0);"> </font><font style="color:rgb(0, 0, 0);">表示多轮对话模式</font> |
+| <font style="color:rgb(0, 0, 0);">single</font> | <font style="color:rgb(0, 0, 0);">Bool?</font> | <font style="color:rgb(0, 0, 0);">是否单轮翻译模式，默认</font><font style="color:rgb(0, 0, 0);"> </font><font style="color:rgb(0, 0, 0);">true</font><br/><font style="color:rgb(0, 0, 0);">，设置为</font><font style="color:rgb(0, 0, 0);"> </font><font style="color:rgb(0, 0, 0);">false</font><br/><font style="color:rgb(0, 0, 0);"> </font><font style="color:rgb(0, 0, 0);">表示多轮对话模式</font> |
 | <font style="color:rgb(0, 0, 0);">type</font> | <font style="color:rgb(0, 0, 0);">LOInterpretationType</font> | <font style="color:rgb(0, 0, 0);">翻译类型，可选</font><font style="color:rgb(0, 0, 0);"> </font><font style="color:rgb(0, 0, 0);">.doubleTranslate</font><br/><font style="color:rgb(0, 0, 0);">,</font><font style="color:rgb(0, 0, 0);"> </font><font style="color:rgb(0, 0, 0);">.singTranslate</font><br/><font style="color:rgb(0, 0, 0);"> </font><font style="color:rgb(0, 0, 0);">或自定义类型</font> |
 | <font style="color:rgb(0, 0, 0);">timeout</font> | <font style="color:rgb(0, 0, 0);">TimeInterval</font> | <font style="color:rgb(0, 0, 0);">无响应超时时间（单位：秒），默认 3600 秒</font> |
 | <font style="color:rgb(0, 0, 0);">isMute</font> | <font style="color:rgb(0, 0, 0);">Bool</font> | <font style="color:rgb(0, 0, 0);">是否静音远端语音播放，默认</font><font style="color:rgb(0, 0, 0);"> </font><font style="color:rgb(0, 0, 0);">true</font> |
